@@ -1,0 +1,10 @@
+<?php
+ale_demo_media::add_image_to_media_gallery('ale_contact_heading',"http://alethemes.com/olins_base/media/bakery/contact.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_about_heading',"http://alethemes.com/olins_base/media/bakery/about.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_about_parallax',"http://alethemes.com/olins_base/media/bakery/about_parallax.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_about_slide1',"http://alethemes.com/olins_base/media/bakery/about_slide_1.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_about_slide2',"http://alethemes.com/olins_base/media/bakery/about_slide_2.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_about_slide3',"http://alethemes.com/olins_base/media/bakery/about_slide_3.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_about_member1',"http://alethemes.com/olins_base/media/bakery/member1.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_about_member2',"http://alethemes.com/olins_base/media/bakery/member2.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_about_member3',"http://alethemes.com/olins_base/media/bakery/member3.jpg");

@@ -1,0 +1,130 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">ale_maskonheading</custom-field>
+        <custom-field action="copy">ale_featuredimagecover</custom-field>
+        <custom-field action="copy">ale_post_title_position</custom-field>
+        <custom-field action="copy">ale_featured_position</custom-field>
+        <custom-field action="copy">ale_sidebar_position</custom-field>
+        <custom-field action="copy">ale_post_info_line</custom-field>
+        <custom-field action="copy">ale_author_info</custom-field>
+        <custom-field action="copy">ale_related_posts</custom-field>
+        <custom-field action="copy">ale_related_posts_count</custom-field>
+        <custom-field action="copy">ale_gallery_slider</custom-field>
+        <custom-field action="translate">ale_post_pre_title</custom-field>
+        <custom-field action="translate">ale_related_posts_title</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">works</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">work-category</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="olins">
+            <key name="ale_sitelogo" />
+            <key name="ale_footerlogo" />
+            <key name="ale_favicon" />
+            <key name="ale_design_variant" />
+            <key name="ale_wrapper_width" />
+            <key name="ale_custom_wrapper" />
+            <key name="ale_inner_wrapper" />
+            <key name="ale_preloder" />
+            <key name="ale_header_custom_styles" />
+            <key name="ale_footer_variant" />
+            <key name="ale_footer_callnumber" />
+            <key name="ale_footer_email_address" />
+            <key name="ale_footer_address" />
+            <key name="ale_copyrights" />
+            <key name="ale_page_heading_style" />
+            <key name="ale_archivetitlebg" />
+            <key name="ale_archiveblogtitle" />
+            <key name="ale_archiveblogpretitle" />
+
+            <key name="ale_background">
+                <key name="color" />
+                <key name="image" />
+                <key name="repeat" />
+                <key name="position" />
+                <key name="attachment" />
+            </key>
+            <key name="ale_font_one" />
+            <key name="ale_font_one_ex" />
+            <key name="ale_font_two" />
+            <key name="ale_font_two_ex" />
+            <key name="ale_h1sty">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="transform" />
+                <key name="color" />
+            </key>
+            <key name="ale_h2sty">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="transform" />
+                <key name="color" />
+            </key>
+            <key name="ale_h3sty">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="transform" />
+                <key name="color" />
+            </key>
+            <key name="ale_h4sty">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="transform" />
+                <key name="color" />
+            </key>
+            <key name="ale_h5sty">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="transform" />
+                <key name="color" />
+            </key>
+            <key name="ale_h6sty">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="transform" />
+                <key name="color" />
+            </key>
+            <key name="ale_bodystyle">
+                <key name="size" />
+                <key name="face" />
+                <key name="style" />
+                <key name="transform" />
+                <key name="color" />
+            </key>
+            <key name="ale_twi" />
+            <key name="ale_fb" />
+            <key name="ale_you" />
+            <key name="ale_lin" />
+            <key name="ale_pin" />
+            <key name="ale_gpl" />
+            <key name="ale_tum" />
+            <key name="ale_insta" />
+            <key name="ale_red" />
+            <key name="ale_vk" />
+            <key name="ale_fb_id" />
+            <key name="ale_footer_info" />
+            <key name="ale_customcsscode" />
+            <key name="ale_default_blog_columns" />
+            <key name="ale_default_blog_text_align" />
+            <key name="ale_default_blog_pagination" />
+            <key name="ale_blog_sidebar_position" />
+            <key name="ale_blog_share_icons" />
+            <key name="ale_custom_blog_excerpt_count" />
+            <key name="ale_works_pre_title" />
+            <key name="ale_works_title" />
+            <key name="ale_wooblogtitle" />
+            <key name="ale_wooblogpretitle" />
+            <key name="ale_subscribe_title" />
+            <key name="ale_subscribe_shortcode" />
+        </key>
+    </admin-texts>
+</wpml-config>

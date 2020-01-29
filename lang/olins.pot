@@ -1,0 +1,4195 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Olins\n"
+"POT-Creation-Date: 2017-04-19 16:13+0200\n"
+"PO-Revision-Date: 2016-08-25 21:53+0200\n"
+"Last-Translator: Alethemes.com <alexandr.sochirca@gmail.com>\n"
+"Language-Team: Alethemes <alexandr.sochirca@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x;esc_html__;esc_html_e;esc_attr__;"
+"esct_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:12 ../aletheme/functions/general.php:1276
+msgid "Error 404"
+msgstr ""
+
+#: ../404.php:14
+msgid "Error, Page not found"
+msgstr ""
+
+#: ../404.php:15
+msgid ""
+"Sorry, but the page you're looking for has not found. Try checking the URL "
+"for errors, then hit the refresh button on your browser."
+msgstr ""
+
+#: ../404.php:17 ../attachment.php:12
+msgid "Go Back"
+msgstr ""
+
+#: ../aletheme/config.php:21
+msgid "Flexible 100%"
+msgstr ""
+
+#: ../aletheme/config.php:22
+msgid "Boxed 960px"
+msgstr ""
+
+#: ../aletheme/config.php:23
+msgid "Boxed 1024px"
+msgstr ""
+
+#: ../aletheme/config.php:24
+msgid "Custom"
+msgstr ""
+
+#: ../aletheme/config.php:29
+msgid "Olins Black & White"
+msgstr ""
+
+#: ../aletheme/config.php:30
+msgid "Olins Zoo"
+msgstr ""
+
+#: ../aletheme/config.php:31
+msgid "Olins Bakery"
+msgstr ""
+
+#: ../aletheme/config.php:32
+msgid "Olins Photography"
+msgstr ""
+
+#: ../aletheme/config.php:33
+msgid "Olins Luxury Shoes"
+msgstr ""
+
+#: ../aletheme/config.php:34
+msgid "Olins Camping"
+msgstr ""
+
+#: ../aletheme/config.php:35
+msgid "Olins Travel Photography"
+msgstr ""
+
+#: ../aletheme/config.php:36
+msgid "Olins Viaje"
+msgstr ""
+
+#: ../aletheme/config.php:37
+msgid "Olins Wedding"
+msgstr ""
+
+#: ../aletheme/config.php:38
+msgid "Olins Furniture"
+msgstr ""
+
+#: ../aletheme/config.php:39
+msgid "Olins Magazine"
+msgstr ""
+
+#: ../aletheme/config.php:40
+msgid "Olins Creative"
+msgstr ""
+
+#: ../aletheme/config.php:41
+msgid "Olins Photography Brigitte"
+msgstr ""
+
+#: ../aletheme/config.php:42
+msgid "Olins Corporate"
+msgstr ""
+
+#: ../aletheme/config.php:43
+msgid "Olins CV"
+msgstr ""
+
+#: ../aletheme/config.php:44
+msgid "Olins Fashion Store"
+msgstr ""
+
+#: ../aletheme/config.php:45
+msgid "Olins Pastel Photography"
+msgstr ""
+
+#: ../aletheme/config.php:46
+msgid "Olins Stephanie Lark (Wedding)"
+msgstr ""
+
+#: ../aletheme/config.php:49
+msgid "No. Use Default Styles"
+msgstr ""
+
+#: ../aletheme/config.php:50
+msgid "Yes, Overwrite with Custom"
+msgstr ""
+
+#: ../aletheme/config.php:53 ../aletheme/etc/media.php:14
+msgid "Hide"
+msgstr ""
+
+#: ../aletheme/config.php:54
+msgid "Show"
+msgstr ""
+
+#: ../aletheme/config.php:57
+msgid "On Featured Image"
+msgstr ""
+
+#: ../aletheme/config.php:58
+msgid "Blog Info Line"
+msgstr ""
+
+#: ../aletheme/config.php:59
+msgid "Before Title"
+msgstr ""
+
+#: ../aletheme/config.php:62
+msgid "Before Post Title"
+msgstr ""
+
+#: ../aletheme/config.php:63
+msgid "After Post Title"
+msgstr ""
+
+#: ../aletheme/config.php:64
+msgid "After Post Description"
+msgstr ""
+
+#: ../aletheme/config.php:65
+msgid "Disable Post Line"
+msgstr ""
+
+#: ../aletheme/config.php:68
+msgid "One Column"
+msgstr ""
+
+#: ../aletheme/config.php:69
+msgid "Two Columns"
+msgstr ""
+
+#: ../aletheme/config.php:70
+msgid "Three Columns"
+msgstr ""
+
+#: ../aletheme/config.php:71
+msgid "Four Columns"
+msgstr ""
+
+#: ../aletheme/config.php:72
+msgid "Five Columns"
+msgstr ""
+
+#: ../aletheme/config.php:75
+msgid "Left Align"
+msgstr ""
+
+#: ../aletheme/config.php:76
+msgid "Center Align"
+msgstr ""
+
+#: ../aletheme/config.php:77
+msgid "Right Align"
+msgstr ""
+
+#: ../aletheme/config.php:78
+msgid "Justify"
+msgstr ""
+
+#: ../aletheme/config.php:82
+msgid "Pagination"
+msgstr ""
+
+#: ../aletheme/config.php:83
+msgid "Load More Button"
+msgstr ""
+
+#: ../aletheme/config.php:84
+msgid "Infinite Scroll"
+msgstr ""
+
+#: ../aletheme/config.php:85
+msgid "Simple pagination"
+msgstr ""
+
+#: ../aletheme/config.php:88
+msgid "No Sideabar"
+msgstr ""
+
+#: ../aletheme/config.php:89 ../aletheme/config.php:1126
+msgid "1/3 Left"
+msgstr ""
+
+#: ../aletheme/config.php:90 ../aletheme/config.php:1127
+msgid "1/4 Left"
+msgstr ""
+
+#: ../aletheme/config.php:91 ../aletheme/config.php:1128
+msgid "1/3 Right"
+msgstr ""
+
+#: ../aletheme/config.php:92 ../aletheme/config.php:1129
+msgid "1/4 Right"
+msgstr ""
+
+#: ../aletheme/config.php:95
+msgid "Default Footer"
+msgstr ""
+
+#: ../aletheme/config.php:96
+msgid "Widget Footer"
+msgstr ""
+
+#: ../aletheme/config.php:99
+msgid "Dark Title on Light Parallax Image 1"
+msgstr ""
+
+#: ../aletheme/config.php:100
+msgid "Light Title on Dark Parallax Image 2"
+msgstr ""
+
+#: ../aletheme/config.php:101
+msgid "White Title on Dark Image"
+msgstr ""
+
+#: ../aletheme/config.php:102
+msgid "Simple Centered Dart Title (without pre title)"
+msgstr ""
+
+#: ../aletheme/config.php:103
+msgid "Simple Title (without pre title)"
+msgstr ""
+
+#: ../aletheme/config.php:104
+msgid "Simple Title (without pre title) with Breadcrumbs"
+msgstr ""
+
+#: ../aletheme/config.php:105
+msgid "Hide Title, Show Breadcrumbs Line"
+msgstr ""
+
+#: ../aletheme/config.php:106
+msgid "Left Image. Works for Wedding Variant."
+msgstr ""
+
+#: ../aletheme/config.php:107
+msgid "Parallax image with Pre Title for Sticky Header"
+msgstr ""
+
+#: ../aletheme/config.php:110
+msgid "Masonry Grid"
+msgstr ""
+
+#: ../aletheme/config.php:111
+msgid "Vintage Grid"
+msgstr ""
+
+#: ../aletheme/config.php:112
+msgid "Furniture Grid"
+msgstr ""
+
+#: ../aletheme/config.php:113
+msgid "Magazine Grid"
+msgstr ""
+
+#: ../aletheme/config.php:114
+msgid "Brigitte Grid"
+msgstr ""
+
+#: ../aletheme/config.php:117
+msgid "Default Style"
+msgstr ""
+
+#: ../aletheme/config.php:118
+msgid "Vintage Style"
+msgstr ""
+
+#: ../aletheme/config.php:119
+msgid "Minimal Style"
+msgstr ""
+
+#: ../aletheme/config.php:120
+msgid "Fashion Style"
+msgstr ""
+
+#: ../aletheme/config.php:136
+msgid "Brand"
+msgstr ""
+
+#: ../aletheme/config.php:140
+msgid "Site Logo"
+msgstr ""
+
+#: ../aletheme/config.php:141
+msgid "Upload or put the site logo link."
+msgstr ""
+
+#: ../aletheme/config.php:146
+msgid "Footer Logo"
+msgstr ""
+
+#: ../aletheme/config.php:147
+msgid "Upload or put the footer logo link."
+msgstr ""
+
+#: ../aletheme/config.php:152
+msgid "Uplaod a favicon icon"
+msgstr ""
+
+#: ../aletheme/config.php:153
+msgid "Upload or put the link of your favicon icon"
+msgstr ""
+
+#: ../aletheme/config.php:158
+msgid "Style"
+msgstr ""
+
+#: ../aletheme/config.php:162
+msgid "Design"
+msgstr ""
+
+#: ../aletheme/config.php:163
+msgid ""
+"Specify the design. Each Design variant will load the own overall style, the "
+"header and the footer are hardcoded and are unique for specific variant."
+msgstr ""
+
+#: ../aletheme/config.php:169
+msgid "Page Wrapper"
+msgstr ""
+
+#: ../aletheme/config.php:170
+msgid ""
+"Specify the wrapper width. If you selected the Custom Wrapper, make sure you "
+"added the custom value in the field below."
+msgstr ""
+
+#: ../aletheme/config.php:176
+msgid "Custom Page Wrapper"
+msgstr ""
+
+#: ../aletheme/config.php:177
+msgid ""
+"If you need a custom Wrapper width, add your value in that field. ex: 900px "
+"or 90%. Also make sure the previous field is selected Custom"
+msgstr ""
+
+#: ../aletheme/config.php:182
+msgid "Inner Wrapper/Content Wrapper"
+msgstr ""
+
+#: ../aletheme/config.php:183
+msgid ""
+"Specify the inner wrapper if it should be different then the default "
+"wrapper. Let the field empty to be equal to the default wrapper. Use \"px\" "
+"or \"%\"."
+msgstr ""
+
+#: ../aletheme/config.php:188
+msgid "Manage Background"
+msgstr ""
+
+#: ../aletheme/config.php:189
+msgid ""
+"Select the background color, or upload a custom background image. Default "
+"background is the #f5f5f5 color"
+msgstr ""
+
+#: ../aletheme/config.php:194
+msgid "Site Pre Loader"
+msgstr ""
+
+#: ../aletheme/config.php:195
+msgid "Enable or Disable the site preloader"
+msgstr ""
+
+#: ../aletheme/config.php:200 ../aletheme/config.php:877
+msgid "Disable"
+msgstr ""
+
+#: ../aletheme/config.php:201 ../aletheme/config.php:878
+msgid "Enable"
+msgstr ""
+
+#: ../aletheme/config.php:204
+msgid "Pre loader Animation"
+msgstr ""
+
+#: ../aletheme/config.php:205
+msgid "Select Pre Loader animation"
+msgstr ""
+
+#: ../aletheme/config.php:210
+msgid "Rotating Plane"
+msgstr ""
+
+#: ../aletheme/config.php:211
+msgid "Double Bounce"
+msgstr ""
+
+#: ../aletheme/config.php:212
+msgid "Wave"
+msgstr ""
+
+#: ../aletheme/config.php:213
+msgid "Wandering Cubes"
+msgstr ""
+
+#: ../aletheme/config.php:214
+msgid "Spinner"
+msgstr ""
+
+#: ../aletheme/config.php:215
+msgid "Chasing Dots"
+msgstr ""
+
+#: ../aletheme/config.php:216
+msgid "Three Bounce"
+msgstr ""
+
+#: ../aletheme/config.php:217
+msgid "Circle"
+msgstr ""
+
+#: ../aletheme/config.php:218
+msgid "Cube Grid"
+msgstr ""
+
+#: ../aletheme/config.php:219
+msgid "Fading Circle"
+msgstr ""
+
+#: ../aletheme/config.php:220
+msgid "Folding Cube"
+msgstr ""
+
+#: ../aletheme/config.php:223
+msgid "Background color"
+msgstr ""
+
+#: ../aletheme/config.php:224
+msgid "Select a background color for Pre loader"
+msgstr ""
+
+#: ../aletheme/config.php:229
+msgid "Animation color"
+msgstr ""
+
+#: ../aletheme/config.php:230
+msgid "Select a color for Animation"
+msgstr ""
+
+#: ../aletheme/config.php:235
+msgid "Header Settings"
+msgstr ""
+
+#: ../aletheme/config.php:239
+msgid "Overwrite Header Styles"
+msgstr ""
+
+#: ../aletheme/config.php:240
+msgid ""
+"Select Yes if you want to customize the header styles like, bg color, "
+"navigation items sizes etc..."
+msgstr ""
+
+#: ../aletheme/config.php:246
+msgid "Styles for the Header"
+msgstr ""
+
+#: ../aletheme/config.php:247
+msgid ""
+"Fill all fields to create a custom Header Style. Let the fields empty to use "
+"the default styles."
+msgstr ""
+
+#: ../aletheme/config.php:252
+msgid "1st Level Menu Style"
+msgstr ""
+
+#: ../aletheme/config.php:253
+msgid "Change the 1st Level Menu Style"
+msgstr ""
+
+#: ../aletheme/config.php:258
+msgid "2st Level Menu Style"
+msgstr ""
+
+#: ../aletheme/config.php:259
+msgid "Change the 2st Level Menu Style"
+msgstr ""
+
+#: ../aletheme/config.php:264
+msgid "3st Level Menu Style"
+msgstr ""
+
+#: ../aletheme/config.php:265
+msgid "Change the 3st Level Menu Style"
+msgstr ""
+
+#: ../aletheme/config.php:271
+msgid "Footer Options"
+msgstr ""
+
+#: ../aletheme/config.php:275
+msgid "Footer Type"
+msgstr ""
+
+#: ../aletheme/config.php:276
+msgid "Specify the footer type/style."
+msgstr ""
+
+#: ../aletheme/config.php:282
+msgid "Footer Call Number"
+msgstr ""
+
+#: ../aletheme/config.php:283
+msgid "Insert the call number"
+msgstr ""
+
+#: ../aletheme/config.php:288
+msgid "Footer Email Address"
+msgstr ""
+
+#: ../aletheme/config.php:289
+msgid "Insert the Email Address."
+msgstr ""
+
+#: ../aletheme/config.php:294
+msgid "Your Address"
+msgstr ""
+
+#: ../aletheme/config.php:295
+msgid "Insert the Address."
+msgstr ""
+
+#: ../aletheme/config.php:300
+msgid "Copyrights"
+msgstr ""
+
+#: ../aletheme/config.php:301
+msgid "Insert the Copyrights text"
+msgstr ""
+
+#: ../aletheme/config.php:306
+msgid "Page Heading"
+msgstr ""
+
+#: ../aletheme/config.php:310
+msgid "Page Heading Style"
+msgstr ""
+
+#: ../aletheme/config.php:311
+msgid ""
+"Select a style for page heading. NOTE: Specific Heading was designed and "
+"hard coded for a specific demo variant. So after you installed a demo "
+"example, do not change this field. It will broke the layout."
+msgstr ""
+
+#: ../aletheme/config.php:317
+msgid "Archive Pages Title Background"
+msgstr ""
+
+#: ../aletheme/config.php:318 ../aletheme/config.php:771
+#: ../aletheme/config.php:886
+msgid "Upload or put the image link. Necessary size: 1800px-590px"
+msgstr ""
+
+#: ../aletheme/config.php:323
+msgid "Blog Archive Page Title"
+msgstr ""
+
+#: ../aletheme/config.php:324
+msgid "Specify the title for Blog archive page"
+msgstr ""
+
+#: ../aletheme/config.php:329
+msgid "Blog Archive Page Pre Title"
+msgstr ""
+
+#: ../aletheme/config.php:330
+msgid "Specify the pre title for Blog archive page"
+msgstr ""
+
+#: ../aletheme/config.php:335
+msgid "Typography"
+msgstr ""
+
+#: ../aletheme/config.php:339
+msgid "Select the First Font from Google Library"
+msgstr ""
+
+#: ../aletheme/config.php:340
+msgid "The default Font is - Raleway"
+msgstr ""
+
+#: ../aletheme/config.php:346
+msgid "Select the First Font Properties from Google Library"
+msgstr ""
+
+#: ../aletheme/config.php:347
+msgid "The default Font (extended) is - 400,400i,600,800,800i,900"
+msgstr ""
+
+#: ../aletheme/config.php:353
+msgid "Select the Second Font from Google Library"
+msgstr ""
+
+#: ../aletheme/config.php:354
+msgid "The default Font is - Playfair Display"
+msgstr ""
+
+#: ../aletheme/config.php:360
+msgid "Select the Second Font Properties from Google Library"
+msgstr ""
+
+#: ../aletheme/config.php:361
+msgid "The default Font (extended) is - 400i"
+msgstr ""
+
+#: ../aletheme/config.php:367
+msgid "H1 Style"
+msgstr ""
+
+#: ../aletheme/config.php:368
+msgid "Change the h1 style"
+msgstr ""
+
+#: ../aletheme/config.php:373
+msgid "H2 Style"
+msgstr ""
+
+#: ../aletheme/config.php:374
+msgid "Change the h2 style"
+msgstr ""
+
+#: ../aletheme/config.php:379
+msgid "H3 Style"
+msgstr ""
+
+#: ../aletheme/config.php:380
+msgid "Change the h3 style"
+msgstr ""
+
+#: ../aletheme/config.php:385
+msgid "H4 Style"
+msgstr ""
+
+#: ../aletheme/config.php:386
+msgid "Change the h4 style"
+msgstr ""
+
+#: ../aletheme/config.php:391
+msgid "H5 Style"
+msgstr ""
+
+#: ../aletheme/config.php:392
+msgid "Change the h5 style"
+msgstr ""
+
+#: ../aletheme/config.php:397
+msgid "H6 Style"
+msgstr ""
+
+#: ../aletheme/config.php:398
+msgid "Change the h6 style"
+msgstr ""
+
+#: ../aletheme/config.php:403
+msgid "Body Style"
+msgstr ""
+
+#: ../aletheme/config.php:404
+msgid "Change the body font style"
+msgstr ""
+
+#: ../aletheme/config.php:409
+msgid "Social Profiles & Share"
+msgstr ""
+
+#: ../aletheme/config.php:413 ../partials/social_text_links.php:1
+msgid "Twitter"
+msgstr ""
+
+#: ../aletheme/config.php:414
+msgid "Your twitter profile URL."
+msgstr ""
+
+#: ../aletheme/config.php:419 ../partials/social_text_links.php:2
+msgid "Facebook"
+msgstr ""
+
+#: ../aletheme/config.php:420
+msgid "Your facebook profile URL."
+msgstr ""
+
+#: ../aletheme/config.php:425 ../partials/social_text_links.php:3
+msgid "Youtube"
+msgstr ""
+
+#: ../aletheme/config.php:426
+msgid "Your youtube profile URL."
+msgstr ""
+
+#: ../aletheme/config.php:431
+msgid "LinkedIn"
+msgstr ""
+
+#: ../aletheme/config.php:432
+msgid "Your LinkedIn profile URL."
+msgstr ""
+
+#: ../aletheme/config.php:437 ../partials/social_text_links.php:5
+msgid "Pinterest"
+msgstr ""
+
+#: ../aletheme/config.php:438
+msgid "Your Pinterest profile URL."
+msgstr ""
+
+#: ../aletheme/config.php:443
+msgid "Google Plus+"
+msgstr ""
+
+#: ../aletheme/config.php:444
+msgid "Your Google Plus+ profile URL."
+msgstr ""
+
+#: ../aletheme/config.php:449 ../partials/social_text_links.php:7
+msgid "Tumblr"
+msgstr ""
+
+#: ../aletheme/config.php:450
+msgid "Your Tumblr profile URL."
+msgstr ""
+
+#: ../aletheme/config.php:455 ../partials/social_text_links.php:8
+msgid "Instagram"
+msgstr ""
+
+#: ../aletheme/config.php:456
+msgid "Your Instagram profile URL."
+msgstr ""
+
+#: ../aletheme/config.php:461 ../partials/social_text_links.php:9
+msgid "Reddit"
+msgstr ""
+
+#: ../aletheme/config.php:462
+msgid "Your Reddit profile URL."
+msgstr ""
+
+#: ../aletheme/config.php:467
+msgid "VK"
+msgstr ""
+
+#: ../aletheme/config.php:468
+msgid "Your VK profile URL."
+msgstr ""
+
+#: ../aletheme/config.php:473
+msgid "Share Platforms"
+msgstr ""
+
+#: ../aletheme/config.php:474
+msgid "Check the platforms you want to use for social share"
+msgstr ""
+
+#: ../aletheme/config.php:493
+msgid "Facebook Application ID"
+msgstr ""
+
+#: ../aletheme/config.php:494
+msgid ""
+"If you have Application ID you can connect the blog to your Facebook Profile "
+"and monitor statistics there."
+msgstr ""
+
+#: ../aletheme/config.php:499
+msgid "Enable Open Graph"
+msgstr ""
+
+#: ../aletheme/config.php:500
+msgid ""
+"The Open Graph protocol enables any web page to become a rich object in a "
+"social graph."
+msgstr ""
+
+#: ../aletheme/config.php:507
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../aletheme/config.php:511
+msgid "Footer Code"
+msgstr ""
+
+#: ../aletheme/config.php:512
+msgid "If you have anything else to add in the footer - please add it here."
+msgstr ""
+
+#: ../aletheme/config.php:517
+msgid "Custom CSS Styles"
+msgstr ""
+
+#: ../aletheme/config.php:518
+msgid "You can add here your styles. ex. .boxclass { padding:10px; }"
+msgstr ""
+
+#: ../aletheme/config.php:523
+msgid "Blog Settings"
+msgstr ""
+
+#: ../aletheme/config.php:528 ../aletheme/config.php:776
+#: ../aletheme/config.php:909
+msgid "Columns Count"
+msgstr ""
+
+#: ../aletheme/config.php:529
+msgid ""
+"Select the columns count for the Blog Archives pages. Works for grids, that "
+"support columns."
+msgstr ""
+
+#: ../aletheme/config.php:535
+msgid "Text Align"
+msgstr ""
+
+#: ../aletheme/config.php:536
+msgid "Setup the Text Align into Blog items"
+msgstr ""
+
+#: ../aletheme/config.php:542
+msgid "Pagination Settings"
+msgstr ""
+
+#: ../aletheme/config.php:543
+msgid "Select the Pagination Type for Blog Archives"
+msgstr ""
+
+#: ../aletheme/config.php:549 ../aletheme/config.php:814
+#: ../aletheme/config.php:916
+msgid "Sidebar Settings"
+msgstr ""
+
+#: ../aletheme/config.php:550
+msgid "Select a sidebar position for Blog Archives"
+msgstr ""
+
+#: ../aletheme/config.php:556
+msgid "Share Icons"
+msgstr ""
+
+#: ../aletheme/config.php:557
+msgid "Show or Hide Share Icons?"
+msgstr ""
+
+#: ../aletheme/config.php:563
+msgid "Number of Words in Description"
+msgstr ""
+
+#: ../aletheme/config.php:564
+msgid "Specify the Number of Words for Description blog per post."
+msgstr ""
+
+#: ../aletheme/config.php:569
+msgid "Date Position"
+msgstr ""
+
+#: ../aletheme/config.php:570
+msgid "Select the date position."
+msgstr ""
+
+#: ../aletheme/config.php:576
+msgid "Blog Info Line Position"
+msgstr ""
+
+#: ../aletheme/config.php:577
+msgid "Select the post info line position."
+msgstr ""
+
+#: ../aletheme/config.php:583
+msgid "Show Category?"
+msgstr ""
+
+#: ../aletheme/config.php:584
+msgid "Show or Hide post Category?"
+msgstr ""
+
+#: ../aletheme/config.php:590
+msgid "Show post Author?"
+msgstr ""
+
+#: ../aletheme/config.php:591
+msgid "Show or Hide post Author?"
+msgstr ""
+
+#: ../aletheme/config.php:597
+msgid "Show Comments count?"
+msgstr ""
+
+#: ../aletheme/config.php:598
+msgid "Show or Hide comments count?"
+msgstr ""
+
+#: ../aletheme/config.php:604
+msgid "Blog Grid Layout"
+msgstr ""
+
+#: ../aletheme/config.php:605
+msgid ""
+"Specify the Grid Layout. Note: Once you selected a specific Grid some of the "
+"options above will not work. This is happening because a specific grid has "
+"specific parameters and some options like columns count will not work."
+msgstr ""
+
+#: ../aletheme/config.php:612
+msgid "Overwrite Default Blog Styles"
+msgstr ""
+
+#: ../aletheme/config.php:613
+msgid ""
+"The fields bellow are for custom styles. You can select the overwrite option "
+"and insert custom values to change the blog style."
+msgstr ""
+
+#: ../aletheme/config.php:618
+msgid "Overwrite Blog Styles"
+msgstr ""
+
+#: ../aletheme/config.php:619
+msgid ""
+"Select Yes if you want to customize the elements like title, image, social "
+"icons, etc..."
+msgstr ""
+
+#: ../aletheme/config.php:625 ../aletheme/config.php:722
+msgid "Title Typography"
+msgstr ""
+
+#: ../aletheme/config.php:626 ../aletheme/config.php:723
+msgid "Change the Typography for block title"
+msgstr ""
+
+#: ../aletheme/config.php:631 ../aletheme/config.php:728
+msgid "Title Margins"
+msgstr ""
+
+#: ../aletheme/config.php:632 ../aletheme/config.php:729
+msgid "Specify the margin value for block title."
+msgstr ""
+
+#: ../aletheme/config.php:637
+msgid "Description Typography"
+msgstr ""
+
+#: ../aletheme/config.php:638
+msgid "Change the Typography for block description"
+msgstr ""
+
+#: ../aletheme/config.php:643
+msgid "Description Margins"
+msgstr ""
+
+#: ../aletheme/config.php:644
+msgid "Specify the margin value for block description."
+msgstr ""
+
+#: ../aletheme/config.php:649
+msgid "Info Line Typography"
+msgstr ""
+
+#: ../aletheme/config.php:650
+msgid "Change the Typography for info line"
+msgstr ""
+
+#: ../aletheme/config.php:655
+msgid "Info Line Margins"
+msgstr ""
+
+#: ../aletheme/config.php:656
+msgid "Specify the margin value for info line."
+msgstr ""
+
+#: ../aletheme/config.php:661
+msgid "Share Icons Color"
+msgstr ""
+
+#: ../aletheme/config.php:662
+msgid "Specify the share icons color."
+msgstr ""
+
+#: ../aletheme/config.php:667
+msgid "Share Icons Size"
+msgstr ""
+
+#: ../aletheme/config.php:668
+msgid "Specify the icon size in px."
+msgstr ""
+
+#: ../aletheme/config.php:673
+msgid "Overwrite Pagination Styles"
+msgstr ""
+
+#: ../aletheme/config.php:674
+msgid "Change the fields bellow to overwrite the paginations styles"
+msgstr ""
+
+#: ../aletheme/config.php:679
+msgid "Button Background color"
+msgstr ""
+
+#: ../aletheme/config.php:680 ../aletheme/config.php:686
+#: ../aletheme/config.php:692 ../aletheme/config.php:698
+#: ../aletheme/config.php:704 ../aletheme/config.php:710
+msgid "Specify the color."
+msgstr ""
+
+#: ../aletheme/config.php:685
+msgid "Button Font color"
+msgstr ""
+
+#: ../aletheme/config.php:691
+msgid "Button Hover Background color"
+msgstr ""
+
+#: ../aletheme/config.php:697
+msgid "Button Hover Font color"
+msgstr ""
+
+#: ../aletheme/config.php:703
+msgid "Button Border color"
+msgstr ""
+
+#: ../aletheme/config.php:709
+msgid "Button Hover Border color"
+msgstr ""
+
+#: ../aletheme/config.php:715
+msgid "Overwrite Single Blog Post Styles"
+msgstr ""
+
+#: ../aletheme/config.php:716
+msgid ""
+"Select Yes if you want to customize the elements like title, infoline, "
+"social icons, etc..."
+msgstr ""
+
+#: ../aletheme/config.php:734
+msgid "Pre Title Typography"
+msgstr ""
+
+#: ../aletheme/config.php:735
+msgid "Change the Typography for Pre Title"
+msgstr ""
+
+#: ../aletheme/config.php:740
+msgid "Pre Title Margins"
+msgstr ""
+
+#: ../aletheme/config.php:741
+msgid "Specify the margin value for pre title."
+msgstr ""
+
+#: ../aletheme/config.php:746
+msgid "Title & Pre Title Align"
+msgstr ""
+
+#: ../aletheme/config.php:747
+msgid "Setup the Text Align"
+msgstr ""
+
+#: ../aletheme/config.php:754
+msgid "Work Settings"
+msgstr ""
+
+#: ../aletheme/config.php:758
+msgid "Archive Pre Title"
+msgstr ""
+
+#: ../aletheme/config.php:759
+msgid "Insert the pre title for Archives pages"
+msgstr ""
+
+#: ../aletheme/config.php:764
+msgid "Archive Title"
+msgstr ""
+
+#: ../aletheme/config.php:765
+msgid "Insert the title for Archives pages"
+msgstr ""
+
+#: ../aletheme/config.php:770
+msgid "Page Heading Background"
+msgstr ""
+
+#: ../aletheme/config.php:777
+msgid "Select the columns count for the Works Archives pages"
+msgstr ""
+
+#: ../aletheme/config.php:783
+msgid "Layout Style"
+msgstr ""
+
+#: ../aletheme/config.php:784
+msgid "Select between Grid or Masonry or Square layout."
+msgstr ""
+
+#: ../aletheme/config.php:794
+msgid "Hover Style"
+msgstr ""
+
+#: ../aletheme/config.php:795
+msgid "Specify the Hover Style."
+msgstr ""
+
+#: ../aletheme/config.php:808
+msgid "Padding"
+msgstr ""
+
+#: ../aletheme/config.php:809
+msgid "Padding between work items in px"
+msgstr ""
+
+#: ../aletheme/config.php:815
+msgid "Select a sidebar position for Work Archives"
+msgstr ""
+
+#: ../aletheme/config.php:821
+msgid "Item Style"
+msgstr ""
+
+#: ../aletheme/config.php:822
+msgid "Specify the Item Style."
+msgstr ""
+
+#: ../aletheme/config.php:827
+msgid "Only Image"
+msgstr ""
+
+#: ../aletheme/config.php:828
+msgid "Image, Title, and Category Icon"
+msgstr ""
+
+#: ../aletheme/config.php:829
+msgid "Image, Title, Category"
+msgstr ""
+
+#: ../aletheme/config.php:830
+msgid "Image (On Hover title & category)"
+msgstr ""
+
+#: ../aletheme/config.php:833
+msgid "Container Properties"
+msgstr ""
+
+#: ../aletheme/config.php:834
+msgid "Specify the Container style for Works Post Type"
+msgstr ""
+
+#: ../aletheme/config.php:839
+msgid "Use Default Settings (Style Tab)."
+msgstr ""
+
+#: ../aletheme/config.php:840
+msgid "Use Full Width with no padding."
+msgstr ""
+
+#: ../aletheme/config.php:843
+msgid "Extra Heading"
+msgstr ""
+
+#: ../aletheme/config.php:844
+msgid "Enable or Disable an Extra Heading that shows some additional info"
+msgstr ""
+
+#: ../aletheme/config.php:849
+msgid "Disable Extra Heading"
+msgstr ""
+
+#: ../aletheme/config.php:850
+msgid "Enable Extra Heading"
+msgstr ""
+
+#: ../aletheme/config.php:853
+msgid "First Line Text"
+msgstr ""
+
+#: ../aletheme/config.php:854
+msgid "Add some text to show in first line"
+msgstr ""
+
+#: ../aletheme/config.php:859
+msgid "Second Line Text"
+msgstr ""
+
+#: ../aletheme/config.php:860
+msgid "Add some text to show in second line"
+msgstr ""
+
+#: ../aletheme/config.php:865
+msgid "Background Color"
+msgstr ""
+
+#: ../aletheme/config.php:866
+msgid "Specify the background color for the Extra heading"
+msgstr ""
+
+#: ../aletheme/config.php:871
+msgid "Taxonomy Navigation"
+msgstr ""
+
+#: ../aletheme/config.php:872
+msgid ""
+"Enable or Disable the taxonomy (Category) navigation at the top of archive "
+"page."
+msgstr ""
+
+#: ../aletheme/config.php:881
+msgid "WooCommerce"
+msgstr ""
+
+#: ../aletheme/config.php:885
+msgid "WooCommerce Title Background"
+msgstr ""
+
+#: ../aletheme/config.php:891
+msgid "WooCommerce Single Page Title Background"
+msgstr ""
+
+#: ../aletheme/config.php:892
+msgid ""
+"Upload or put the image link. LEt the field empty to disable the heading on "
+"single shop page."
+msgstr ""
+
+#: ../aletheme/config.php:897
+msgid "WooCommerce Page Title"
+msgstr ""
+
+#: ../aletheme/config.php:898
+msgid "Specify the title for WooCommerce pages"
+msgstr ""
+
+#: ../aletheme/config.php:903
+msgid "WooCommerce Pre Title"
+msgstr ""
+
+#: ../aletheme/config.php:904
+msgid "Specify the pre title for WooCommerce PAges"
+msgstr ""
+
+#: ../aletheme/config.php:910
+msgid "Select the columns count for WooCommerce pages"
+msgstr ""
+
+#: ../aletheme/config.php:917
+msgid "Select a sidebar position for WooCommerce Pages"
+msgstr ""
+
+#: ../aletheme/config.php:923
+msgid "Shop Grid Style"
+msgstr ""
+
+#: ../aletheme/config.php:924
+msgid "Specify the Grid Style"
+msgstr ""
+
+#: ../aletheme/config.php:930
+msgid "Products per page"
+msgstr ""
+
+#: ../aletheme/config.php:931
+msgid "Specify the products per page count. by default it is 8"
+msgstr ""
+
+#: ../aletheme/config.php:936
+msgid "Instagram Settings"
+msgstr ""
+
+#: ../aletheme/config.php:940
+msgid "Enable Instagram Feed"
+msgstr ""
+
+#: ../aletheme/config.php:941
+msgid ""
+"Enable to show the recent images from instagram on the footer. Note: It will "
+"show the module only on design variants that support the instagram feed in "
+"footer. You can check the demo examples to view the list."
+msgstr ""
+
+#: ../aletheme/config.php:946
+msgid "Enable Instagram on Footers that supports"
+msgstr ""
+
+#: ../aletheme/config.php:947
+msgid "Disable Instagram Feed"
+msgstr ""
+
+#: ../aletheme/config.php:950
+msgid "Instagram Login"
+msgstr ""
+
+#: ../aletheme/config.php:951
+msgid "Insert your instagram login"
+msgstr ""
+
+#: ../aletheme/config.php:956
+msgid "Access Token"
+msgstr ""
+
+#: ../aletheme/config.php:957
+msgid ""
+"Insert your Instagram Access Token. If you don't know how to generate an "
+"access token you can take a look at our video tutorial. The link is under "
+"this comment."
+msgstr ""
+
+#: ../aletheme/config.php:963
+msgid "Images Count"
+msgstr ""
+
+#: ../aletheme/config.php:964
+msgid "How many images to show?"
+msgstr ""
+
+#: ../aletheme/config.php:969
+msgid "Images Size"
+msgstr ""
+
+#: ../aletheme/config.php:970
+msgid "Specify the images Thumb."
+msgstr ""
+
+#: ../aletheme/config.php:975
+msgid "Standard Resolution"
+msgstr ""
+
+#: ../aletheme/config.php:976
+msgid "Low Resolution"
+msgstr ""
+
+#: ../aletheme/config.php:977
+msgid "Thumbnail"
+msgstr ""
+
+#: ../aletheme/config.php:980
+msgid "Subscribe Settings"
+msgstr ""
+
+#: ../aletheme/config.php:984
+msgid "Subscribe Form works with specific Design Variants"
+msgstr ""
+
+#: ../aletheme/config.php:985
+msgid ""
+"Note that the Subscribe form is shown on a specific design variant and not "
+"on all variants. If you want to have a subscribe form into your footer, you "
+"must select a design variant that support it. See the demo previews "
+"examples. You also need to install a subscribe plugin and paste the "
+"shortcode in the field bellow."
+msgstr ""
+
+#: ../aletheme/config.php:990
+msgid "Subscribe Title"
+msgstr ""
+
+#: ../aletheme/config.php:991
+msgid "Type a Title for the subscribe Box"
+msgstr ""
+
+#: ../aletheme/config.php:996
+msgid "Form Shortcode"
+msgstr ""
+
+#: ../aletheme/config.php:997
+msgid ""
+"Paste here the subscribe shortcode generated by a third-part plugin. It can "
+"be MailChimp for WP."
+msgstr ""
+
+#: ../aletheme/config.php:1002 ../aletheme/functions/vc.php:307
+msgid "Google Maps"
+msgstr ""
+
+#: ../aletheme/config.php:1006
+msgid "Google Maps API Key"
+msgstr ""
+
+#: ../aletheme/config.php:1007
+msgid ""
+"Paste a Google Maps API Key. You can generate a key on the  <a href="
+"\"https://console.developers.google.com/apis/\" target=\"_blank\">Google "
+"console.</a>"
+msgstr ""
+
+#: ../aletheme/config.php:1012
+msgid "Custom Pin Icon"
+msgstr ""
+
+#: ../aletheme/config.php:1013
+msgid "Upload a Custom Pin Icon. Let it empty to use the default icon."
+msgstr ""
+
+#: ../aletheme/config.php:1018
+msgid "Map Custom Style"
+msgstr ""
+
+#: ../aletheme/config.php:1019
+msgid ""
+"Paste here a custom style for your google map. You can use the snazzymaps."
+"com to take a ready style. "
+msgstr ""
+
+#: ../aletheme/config.php:1060
+msgid "Title Heading Styles"
+msgstr ""
+
+#: ../aletheme/config.php:1067
+msgid "Page Heading Mask?"
+msgstr ""
+
+#: ../aletheme/config.php:1068
+msgid ""
+"Enable or disable the mask on page heading images background (if it supports)"
+msgstr ""
+
+#: ../aletheme/config.php:1073
+msgid "Disable Mask"
+msgstr ""
+
+#: ../aletheme/config.php:1074
+msgid "Black & White"
+msgstr ""
+
+#: ../aletheme/config.php:1075
+msgid "Dark 40% Opacity"
+msgstr ""
+
+#: ../aletheme/config.php:1076
+msgid "Black 40% Opacity"
+msgstr ""
+
+#: ../aletheme/config.php:1080
+msgid "Featured Image Size - Cover."
+msgstr ""
+
+#: ../aletheme/config.php:1081
+msgid ""
+"Check this field to make the featured image size cover in the page heading."
+msgstr ""
+
+#: ../aletheme/config.php:1086
+msgid "Post Pre Title"
+msgstr ""
+
+#: ../aletheme/config.php:1087
+msgid "Insert the Pre Title"
+msgstr ""
+
+#: ../aletheme/config.php:1092
+msgid "Title and Pre Title Position"
+msgstr ""
+
+#: ../aletheme/config.php:1093
+msgid "Specify the position for the Title and Pre Title"
+msgstr ""
+
+#: ../aletheme/config.php:1098
+msgid "After the Page Heading"
+msgstr ""
+
+#: ../aletheme/config.php:1099
+msgid "Into the Page Heading"
+msgstr ""
+
+#: ../aletheme/config.php:1100
+msgid "After the Page Heading. Show Default in Heading"
+msgstr ""
+
+#: ../aletheme/config.php:1101
+msgid "After Thumb/Slider. Show Default in Heading"
+msgstr ""
+
+#: ../aletheme/config.php:1102
+msgid "After Heading. Make Heading full width. Used on Wedding Variant."
+msgstr ""
+
+#: ../aletheme/config.php:1103
+msgid "Do not show"
+msgstr ""
+
+#: ../aletheme/config.php:1107
+msgid "Featured Image Position"
+msgstr ""
+
+#: ../aletheme/config.php:1108
+msgid "Specify the position for the Featured Image"
+msgstr ""
+
+#: ../aletheme/config.php:1113
+msgid "In Page Headings as background (if it supports)"
+msgstr ""
+
+#: ../aletheme/config.php:1114
+msgid "In Content Area"
+msgstr ""
+
+#: ../aletheme/config.php:1115
+msgid "Do not display"
+msgstr ""
+
+#: ../aletheme/config.php:1119
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../aletheme/config.php:1120
+msgid "Specify a sidebar position"
+msgstr ""
+
+#: ../aletheme/config.php:1125
+msgid "No Sidebar"
+msgstr ""
+
+#: ../aletheme/config.php:1137
+msgid "Posts Settings"
+msgstr ""
+
+#: ../aletheme/config.php:1145
+msgid "Post Info Line Position"
+msgstr ""
+
+#: ../aletheme/config.php:1146
+msgid "Select a position for the post info line."
+msgstr ""
+
+#: ../aletheme/config.php:1150
+msgid "Before Content"
+msgstr ""
+
+#: ../aletheme/config.php:1151
+msgid "After Content"
+msgstr ""
+
+#: ../aletheme/config.php:1152
+msgid "Hide Info Line, Show Grid Line"
+msgstr ""
+
+#: ../aletheme/config.php:1153
+msgid "Right Column"
+msgstr ""
+
+#: ../aletheme/config.php:1154
+msgid "Hide Info Line, Show Thumbs Line (for Wedding Variant)"
+msgstr ""
+
+#: ../aletheme/config.php:1155
+msgid "Disable Info Line"
+msgstr ""
+
+#: ../aletheme/config.php:1159
+msgid "Author Info"
+msgstr ""
+
+#: ../aletheme/config.php:1160
+msgid "Enable or disable the author info box before the content"
+msgstr ""
+
+#: ../aletheme/config.php:1165
+msgid "Disable Author Info Block"
+msgstr ""
+
+#: ../aletheme/config.php:1166
+msgid "Enable Author Info Block"
+msgstr ""
+
+#: ../aletheme/config.php:1170
+msgid "Related posts"
+msgstr ""
+
+#: ../aletheme/config.php:1171
+msgid "Show or hide the related posts block?"
+msgstr ""
+
+#: ../aletheme/config.php:1176
+msgid "Hide Related Posts"
+msgstr ""
+
+#: ../aletheme/config.php:1177
+msgid "Show Related Posts (Random)"
+msgstr ""
+
+#: ../aletheme/config.php:1181
+msgid "Related Posts Block Title"
+msgstr ""
+
+#: ../aletheme/config.php:1182
+msgid "Insert the Title"
+msgstr ""
+
+#: ../aletheme/config.php:1188
+msgid "Related Posts Count"
+msgstr ""
+
+#: ../aletheme/config.php:1189
+msgid "Insert the count number"
+msgstr ""
+
+#: ../aletheme/config.php:1198
+msgid "Works Settings"
+msgstr ""
+
+#: ../aletheme/config.php:1206
+msgid "Gallery Slider Type"
+msgstr ""
+
+#: ../aletheme/config.php:1207
+msgid "Select a variant for the Gallery Slider"
+msgstr ""
+
+#: ../aletheme/config.php:1211
+msgid "Slider Before Content"
+msgstr ""
+
+#: ../aletheme/config.php:1212
+msgid "Top Info, Full Width Slider"
+msgstr ""
+
+#: ../aletheme/config.php:1213
+msgid "Thumbnails Grid"
+msgstr ""
+
+#: ../aletheme/config.php:1214
+msgid "Creative Grid"
+msgstr ""
+
+#: ../aletheme/config.php:1215
+msgid "Brigitte Slider"
+msgstr ""
+
+#: ../aletheme/config.php:1434
+msgid "Sneak Peek"
+msgstr ""
+
+#: ../aletheme/etc/admin.php:49
+msgid "Installing plugin"
+msgstr ""
+
+#: ../aletheme/etc/admin.php:50
+msgid "Activating plugin"
+msgstr ""
+
+#: ../aletheme/etc/admin.php:51
+msgid "Try again"
+msgstr ""
+
+#: ../aletheme/etc/admin.php:54
+msgid "Failed to activate."
+msgstr ""
+
+#: ../aletheme/etc/admin.php:55
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:119
+#: ../aletheme/functions/tgm.php:2406
+msgid "Active"
+msgstr ""
+
+#: ../aletheme/etc/admin.php:56
+msgid "Failed."
+msgstr ""
+
+#: ../aletheme/etc/admin.php:57
+msgid ""
+"The plugin failed to activate. Please try to increase the memory_limit on "
+"your server."
+msgstr ""
+
+#: ../aletheme/etc/admin.php:58
+msgid ""
+"There was a problem during the importing process resulting in the following "
+"error from your server:"
+msgstr ""
+
+#: ../aletheme/etc/admin.php:59
+msgid "Install required plugins first."
+msgstr ""
+
+#: ../aletheme/etc/admin.php:70
+#: ../aletheme/options/admin/options-framework.php:334
+msgid "Theme Options"
+msgstr ""
+
+#: ../aletheme/etc/admin.php:71
+msgid "Demo Install"
+msgstr ""
+
+#: ../aletheme/etc/admin.php:295
+#, php-format
+msgid ""
+"The plugin failed to install. Please check the permissions for the \"plugins"
+"\" directory or <a href=\"%s\" target=\"_blank\">download</a> the plugin and "
+"install it manually."
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:5
+msgid "Examples Install"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:8
+msgid ""
+"The theme will automatically load all necessary files and create a copy of "
+"the selected example. You can also delete the installed demo at any time. "
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:9
+msgid "Recommendation:"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:11
+msgid ""
+"We recommend to use a fresh install of WordPress for importing Demo Data. "
+"(no media, not posts, no pages, no plugins.)"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:12
+msgid ""
+"The upload process can take up 5 minutes. So please, be patient and do not "
+"close the page."
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:13
+msgid "Before importing Demo Examples you must install required plugins."
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:19
+msgid "All"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:20
+msgid "Photography"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:21
+msgid "Micro Niche"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:22
+msgid "Creative"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:23
+msgid "Business"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:24
+msgid "Shop"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:25
+msgid "One Page"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:30
+msgid "Default"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:31
+#: ../aletheme/functions/vc.php:905 ../aletheme/functions/vc.php:1207
+#: ../aletheme/functions/vc.php:1335 ../aletheme/functions/vc.php:1432
+#: ../aletheme/functions/vc.php:1777
+msgid "Title"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:32
+msgid "Date Created"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:35
+#: ../searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:98
+msgid "Required Plugins"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:112
+#: ../aletheme/functions/tgm.php:2802
+msgid "Install"
+msgstr ""
+
+#: ../aletheme/etc/admin_templates/ale_view_demoinstall.php:117
+#: ../aletheme/functions/tgm.php:2811
+msgid "Activate"
+msgstr ""
+
+#: ../aletheme/etc/contact.php:54
+msgid "Something went wrong. Please refresh the page and try again."
+msgstr ""
+
+#: ../aletheme/etc/contact.php:62
+msgid "Please enter your name."
+msgstr ""
+
+#: ../aletheme/etc/contact.php:65
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: ../aletheme/etc/contact.php:68
+msgid "Please enter your message."
+msgstr ""
+
+#: ../aletheme/etc/contact.php:98
+msgid "New contact message from "
+msgstr ""
+
+#: ../aletheme/etc/contact.php:100 ../aletheme/functions/vc.php:64
+msgid "Message"
+msgstr ""
+
+#: ../aletheme/etc/contact.php:101 ../aletheme/functions/vc.php:57
+msgid "Email"
+msgstr ""
+
+#: ../aletheme/etc/contact.php:102 ../aletheme/functions/vc.php:50
+msgid "Name"
+msgstr ""
+
+#: ../aletheme/etc/contact.php:103
+msgid "Sent from"
+msgstr ""
+
+#: ../aletheme/etc/front.php:243
+msgid "on"
+msgstr ""
+
+#: ../aletheme/etc/front.php:267
+msgid "RSS Feed"
+msgstr ""
+
+#: ../aletheme/etc/front.php:307
+msgid "Posted by "
+msgstr ""
+
+#: ../aletheme/etc/front.php:307
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../aletheme/etc/front.php:308
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: ../aletheme/etc/front.php:314
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../aletheme/etc/front.php:392
+msgid "Search for"
+msgstr ""
+
+#: ../aletheme/etc/front.php:404 ../aletheme/etc/front.php:407
+#: ../aletheme/etc/front.php:410 ../aletheme/functions/general.php:1073
+msgid "Archives"
+msgstr ""
+
+#: ../aletheme/etc/media.php:156 ../aletheme/metaboxes/gallery-meta.php:8
+msgid "Gallery Images"
+msgstr ""
+
+#: ../aletheme/etc/media.php:201 ../aletheme/etc/media.php:208
+msgid "Add Image"
+msgstr ""
+
+#: ../aletheme/etc/media.php:201 ../aletheme/etc/media.php:208
+msgid "Upload Images"
+msgstr ""
+
+#: ../aletheme/etc/media.php:201
+msgid "Manage Gallery"
+msgstr ""
+
+#: ../aletheme/etc/nav.php:150
+msgid "Advanced Navigation"
+msgstr ""
+
+#: ../aletheme/etc/nav.php:168 ../aletheme/functions/general.php:1272
+#: ../partials/page_head/center_title.php:47
+#: ../partials/page_head/left_title.php:47
+#: ../partials/page_head/parallax_one.php:78
+#: ../partials/page_head/parallax_three.php:77
+#: ../partials/page_head/parallax_two.php:77
+#: ../partials/page_head/simple_image.php:78
+#: ../partials/page_head/wedding_heading.php:78
+msgid "Archive"
+msgstr ""
+
+#: ../aletheme/etc/system.php:37
+msgid "Header Menu"
+msgstr ""
+
+#: ../aletheme/etc/system.php:38
+msgid "Header Left Menu"
+msgstr ""
+
+#: ../aletheme/etc/system.php:39
+msgid "Header Right Menu"
+msgstr ""
+
+#: ../aletheme/etc/system.php:40
+msgid "Footer Menu"
+msgstr ""
+
+#: ../aletheme/etc/system.php:41
+msgid "Mobile Menu"
+msgstr ""
+
+#: ../aletheme/functions/general.php:1271
+msgid "Home"
+msgstr ""
+
+#: ../aletheme/functions/general.php:1273
+msgid "Search results"
+msgstr ""
+
+#: ../aletheme/functions/general.php:1274
+msgid "Tag"
+msgstr ""
+
+#: ../aletheme/functions/general.php:1275
+#: ../partials/work/top_full_slider.php:22
+msgid "Author"
+msgstr ""
+
+#: ../aletheme/functions/general.php:1301
+msgid "Blog"
+msgstr ""
+
+#: ../aletheme/functions/general.php:1409
+msgid "Page"
+msgstr ""
+
+#: ../aletheme/functions/load-more.php:21
+msgid "Load More"
+msgstr ""
+
+#: ../aletheme/functions/social.php:72
+msgid "Fill all the Instagram Feed fields in Theme Options Panel"
+msgstr ""
+
+#: ../aletheme/functions/social.php:88
+msgid "Follow us on Instagram"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:393 ../aletheme/functions/tgm.php:912
+#: ../aletheme/functions/tgm.php:2618 ../aletheme/functions/tgm.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:394 ../aletheme/functions/tgm.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:395 ../aletheme/functions/tgm.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../aletheme/functions/tgm.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:1019 ../aletheme/functions/tgm.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2358
+msgid "Required"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2380
+msgid "External Source"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2427
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../aletheme/functions/tgm.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../aletheme/functions/tgm.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../aletheme/functions/tgm.php:2567
+msgid "unknown"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2633
+msgid "Source"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2634
+msgid "Type"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2638
+msgid "Version"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2639
+msgid "Status"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2808
+msgid "Update"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3594 ../aletheme/functions/tgm.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3594 ../aletheme/functions/tgm.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../aletheme/functions/tgm.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:31
+msgid "Contact Form"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:33 ../aletheme/functions/vc.php:121
+#: ../aletheme/functions/vc.php:135 ../aletheme/functions/vc.php:180
+#: ../aletheme/functions/vc.php:225 ../aletheme/functions/vc.php:256
+#: ../aletheme/functions/vc.php:309 ../aletheme/functions/vc.php:363
+#: ../aletheme/functions/vc.php:422 ../aletheme/functions/vc.php:500
+#: ../aletheme/functions/vc.php:514 ../aletheme/functions/vc.php:561
+#: ../aletheme/functions/vc.php:575 ../aletheme/functions/vc.php:635
+#: ../aletheme/functions/vc.php:649 ../aletheme/functions/vc.php:700
+#: ../aletheme/functions/vc.php:714 ../aletheme/functions/vc.php:761
+#: ../aletheme/functions/vc.php:802 ../aletheme/functions/vc.php:853
+#: ../aletheme/functions/vc.php:891 ../aletheme/functions/vc.php:932
+#: ../aletheme/functions/vc.php:946 ../aletheme/functions/vc.php:993
+#: ../aletheme/functions/vc.php:1039 ../aletheme/functions/vc.php:1079
+#: ../aletheme/functions/vc.php:1120 ../aletheme/functions/vc.php:1171
+#: ../aletheme/functions/vc.php:1185 ../aletheme/functions/vc.php:1236
+#: ../aletheme/functions/vc.php:1250 ../aletheme/functions/vc.php:1300
+#: ../aletheme/functions/vc.php:1314 ../aletheme/functions/vc.php:1367
+#: ../aletheme/functions/vc.php:1403 ../aletheme/functions/vc.php:1417
+#: ../aletheme/functions/vc.php:1464 ../aletheme/functions/vc.php:1504
+#: ../aletheme/functions/vc.php:1565 ../aletheme/functions/vc.php:1606
+#: ../aletheme/functions/vc.php:1642 ../aletheme/functions/vc.php:1669
+#: ../aletheme/functions/vc.php:1747 ../aletheme/functions/vc.php:1761
+#: ../aletheme/functions/vc.php:1802 ../aletheme/functions/vc.php:1852
+#: ../aletheme/functions/vc.php:1866 ../aletheme/functions/vc.php:1919
+#: ../aletheme/functions/vc.php:1933 ../aletheme/functions/vc.php:1958
+msgid "Olins"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:34
+msgid "Contact Form with background image"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:41
+msgid "Form Heading Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:43
+msgid "ask us smth..."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:44
+msgid "Insert a title for your form"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:48
+msgid "Name Field Placeholder"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:51
+msgid "Insert a placeholder. ex: Your Name"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:55
+msgid "Email Field Placeholder"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:58
+msgid "Insert a placeholder. ex: Your Email"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:62
+msgid "Message Field Placeholder"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:65
+msgid "Insert a placeholder. ex: Type your message"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:69 ../aletheme/functions/vc.php:393
+msgid "Submit button text"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:71 ../aletheme/functions/vc.php:395
+msgid "Send"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:72 ../aletheme/functions/vc.php:396
+msgid "Insert the button text. ex: Send"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:76 ../aletheme/functions/vc.php:400
+msgid "Receive to"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:78 ../aletheme/functions/vc.php:402
+msgid "Your email to receive messages from the contact form"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:82 ../aletheme/functions/vc.php:406
+msgid "Email Subject"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:84 ../aletheme/functions/vc.php:408
+msgid "Specify a subject that will be used for received emails."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:88 ../aletheme/functions/vc.php:810
+#: ../aletheme/functions/vc.php:1426
+msgid "Background Image"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:90
+msgid "Select or Upload a background image."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:94
+msgid "Mask Color"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:96
+msgid "Select a mask color that is displayed under the form"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:100
+msgid "Content Align"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:103
+msgid "Specify the Content Align in the Form"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:116
+msgid "Slider One"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:119
+msgid "An Animated Slider called One"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:133
+msgid "Slider One Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:136 ../aletheme/functions/vc.php:650
+#: ../aletheme/functions/vc.php:1251 ../aletheme/functions/vc.php:1867
+msgid "Add data for each item such as images, titles or descriptions"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:144 ../aletheme/functions/vc.php:658
+#: ../aletheme/functions/vc.php:1259 ../aletheme/functions/vc.php:1651
+#: ../aletheme/functions/vc.php:1875 ../aletheme/functions/vc.php:1942
+msgid "Slide Image"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:146 ../aletheme/functions/vc.php:660
+#: ../aletheme/functions/vc.php:725 ../aletheme/functions/vc.php:901
+#: ../aletheme/functions/vc.php:957 ../aletheme/functions/vc.php:1003
+#: ../aletheme/functions/vc.php:1049 ../aletheme/functions/vc.php:1151
+#: ../aletheme/functions/vc.php:1261 ../aletheme/functions/vc.php:1325
+#: ../aletheme/functions/vc.php:1331 ../aletheme/functions/vc.php:1428
+#: ../aletheme/functions/vc.php:1653 ../aletheme/functions/vc.php:1679
+#: ../aletheme/functions/vc.php:1877 ../aletheme/functions/vc.php:1944
+msgid "Select or Upload an image."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:150 ../aletheme/functions/vc.php:664
+msgid "Slide Pre Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:153 ../aletheme/functions/vc.php:667
+#: ../aletheme/functions/vc.php:1275 ../aletheme/functions/vc.php:1898
+msgid "Insert a pre title for your Slide"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:157 ../aletheme/functions/vc.php:671
+#: ../aletheme/functions/vc.php:1265 ../aletheme/functions/vc.php:1881
+msgid "Slide Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:160 ../aletheme/functions/vc.php:674
+#: ../aletheme/functions/vc.php:1268 ../aletheme/functions/vc.php:1884
+msgid "Insert a title for your Slide"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:164 ../aletheme/functions/vc.php:678
+#: ../aletheme/functions/vc.php:1279
+msgid "Button Link"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:167 ../aletheme/functions/vc.php:681
+#: ../aletheme/functions/vc.php:1282
+msgid "Insert a link for slide button"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:178
+msgid "Products Slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:181
+msgid "Display products in a carousel slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:188
+msgid "Carousel Pre Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:191
+msgid "Insert a pre title for your Product Carousel"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:195
+msgid "Carousel Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:198
+msgid "Insert a title for your Product Carousel"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:202
+msgid "Products"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:211
+msgid "Enter List of Products"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:223
+msgid "Recent Works Line"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:226
+msgid "Display a line with recent works posts"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:233
+msgid "Select 7 Work Posts"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:242
+msgid "Select 7 posts or let it empty to load recent posts."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:254
+msgid "Counter"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:257
+msgid "A counter from zero to your value."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:264
+msgid "Counter Value"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:267
+msgid "Specify the Number"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:271
+msgid "Counter Value Color"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:274 ../aletheme/functions/vc.php:288
+#: ../aletheme/functions/vc.php:475 ../aletheme/functions/vc.php:482
+msgid "Specify the color"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:278
+msgid "Counter Label"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:281
+msgid "Type a title for your number"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:285
+msgid "Counter Label Color"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:292
+msgid "Counter Icon"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:295
+msgid "Upload an icon if is necessary."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:310
+msgid "Generates a Google Maps"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:317
+msgid "The Address"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:320
+msgid "Specify the address."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:324
+msgid "Map Width"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:327
+msgid "Specify the Map Width"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:331
+msgid "Map Height"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:334
+msgid "Specify the Map Height"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:338
+msgid "Map Zoom"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:341
+msgid ""
+"Enter a zoom factor for Google Map (0 = whole world, 19 = individual "
+"buildings)"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:345
+msgid "Zoom on Mouse Wheel"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:348
+msgid "Allow zooming on mouse wheel?"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:361
+msgid "Simple Form"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:364
+msgid "Generates a Simple Contact Form"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:371
+msgid "Name Placeholder"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:374
+msgid "Specify the name placeholder"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:378
+msgid "Email Placeholder"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:381 ../aletheme/functions/vc.php:454
+msgid "Specify the email placeholder"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:385
+msgid "Message Placeholder"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:388
+msgid "Specify the message placeholder"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:420
+msgid "Price Element"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:423
+msgid "Generates a Pricing Element Box"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:430 ../aletheme/functions/vc.php:1047
+msgid "Image"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:433
+msgid "Upload an image."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:437
+msgid "The Price"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:440
+msgid "Specify the price"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:444 ../aletheme/functions/vc.php:1519
+msgid "Currency"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:447
+msgid "Specify the Currency"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:451 ../aletheme/functions/vc.php:1014
+msgid "Price Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:458
+msgid "Price Link"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:461
+msgid "Select a link if needed, or let the field empty."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:465 ../aletheme/functions/vc.php:599
+msgid "Description"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:468
+msgid "Specify the description"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:472
+msgid "Price Color"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:479
+msgid "Title Color"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:495
+msgid "Testimonials Slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:498 ../aletheme/functions/vc.php:930
+msgid "A Slider with testimonials"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:512
+msgid "Testimonials Slider Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:515
+msgid "Add a Testimonial item for Testimonials Slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:524 ../aletheme/functions/vc.php:961
+msgid "Author Name"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:527
+msgid "Insert the testimonial's author name"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:531
+msgid "Testimonial"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:534
+msgid "Insert the Testimonial text"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:538
+msgid "Testimonial Link"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:541
+msgid "Generate a link for your testimonial, or let it empty to hide the link."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:556
+msgid "Pretty Team"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:559 ../aletheme/functions/vc.php:698
+msgid "A Slider with team members"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:573
+msgid "Pretty Team Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:576
+msgid "Add a Team Member item for Pretty Team Slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:585 ../aletheme/functions/vc.php:729
+#: ../aletheme/functions/vc.php:1683
+msgid "Member Name"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:588
+msgid "Insert the team member name"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:592 ../aletheme/functions/vc.php:736
+msgid "Member Position"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:595
+msgid "Insert the team member position"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:602
+msgid "Insert the team member description"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:606
+msgid "External or Internal Link"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:609
+msgid "Generate a link for your team member, or let it empty to hide the link."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:613
+msgid "Photo"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:616
+msgid "Upload aa member photo."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:630
+msgid "Move Slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:633
+msgid "A Slider with move background."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:647
+msgid "Move Slider Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:695
+msgid "Simple Team"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:712
+msgid "Simple Team Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:715
+msgid "Add data for each item such as images, titles or position"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:723 ../aletheme/functions/vc.php:1677
+msgid "Member Photo"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:732 ../aletheme/functions/vc.php:964
+#: ../aletheme/functions/vc.php:1210 ../aletheme/functions/vc.php:1338
+#: ../aletheme/functions/vc.php:1780
+msgid "Insert a member name"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:739
+msgid "Insert a member position"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:743 ../aletheme/functions/vc.php:836
+#: ../aletheme/functions/vc.php:975 ../aletheme/functions/vc.php:1446
+#: ../aletheme/functions/vc.php:1547
+msgid "Link"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:746
+msgid "Insert a link for member, or let it empty."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:759
+msgid "Selected Works"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:762
+msgid "Display a line with selected works posts"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:769
+msgid "Select 5 Work Posts"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:778
+msgid "Select 5 posts or let it empty to load recent work posts."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:782
+msgid "Display Taxonomy Navigation"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:785
+msgid "Select Yes if you want to display the Taxonomy Links"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:800
+msgid "Scale Image Box"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:803
+msgid "Scale background image and some text"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:812 ../aletheme/functions/vc.php:863
+msgid "Select or Upload an image. Recommendation: Use big images"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:816 ../aletheme/functions/vc.php:867
+msgid "Text Field 1"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:819 ../aletheme/functions/vc.php:826
+#: ../aletheme/functions/vc.php:870 ../aletheme/functions/vc.php:877
+#: ../aletheme/functions/vc.php:1017 ../aletheme/functions/vc.php:1024
+msgid "Type some text or let it empty"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:823 ../aletheme/functions/vc.php:874
+msgid "Text Field 2"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:830
+msgid "Inner Image"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:832
+msgid "Select or Upload an image/logo/icon to show into the box."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:839
+msgid "Insert a link, or let it empty."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:851
+msgid "Hover Text"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:854
+msgid "Text hovered by an image"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:861
+msgid "Hover Image"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:889
+msgid "Service Block"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:892
+msgid "Service Block with image, title and text"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:899 ../aletheme/functions/vc.php:1472
+msgid "Icon Image"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:908 ../aletheme/functions/vc.php:915
+#: ../aletheme/functions/vc.php:1056 ../aletheme/functions/vc.php:1064
+#: ../aletheme/functions/vc.php:1481 ../aletheme/functions/vc.php:1489
+#: ../aletheme/functions/vc.php:1515 ../aletheme/functions/vc.php:1543
+msgid "Type some text"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:912
+msgid "Descriptions"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:927
+msgid "Simple Testimonials Slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:944
+msgid "Simple Testimonials Slider Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:947
+msgid "Add data for each item such as images, titles or description"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:955
+msgid "Testimonial Photo"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:968
+msgid "Testimonial Text"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:971
+msgid "Insert a testimonial description"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:978
+msgid "Insert a link for testimonial, or let it empty."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:991
+msgid "Price Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:994
+msgid "Pricing item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1001
+msgid "Pricing Image"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1007
+msgid "The Amount (Price)"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1010
+msgid "Type the amount"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1021
+msgid "Price Description"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1037 ../aletheme/functions/vc.php:1040
+msgid "Hover Team"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1053
+msgid "Text field"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1061
+msgid "Second Text field"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1077 ../aletheme/functions/vc.php:1080
+msgid "Works Masonry Grid"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1087
+msgid "Items Count"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1090
+msgid "Specify the items count or insert '-1' to show all posts."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1094 ../aletheme/functions/vc.php:1581
+msgid "Grid Layout"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1105 ../aletheme/functions/vc.php:1587
+msgid "Select the Grid layout style."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1118
+msgid "Video Box"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1121
+msgid "A box with a video in modal window"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1128
+msgid "Video Link"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1131
+msgid "Paste here a video from youtube. ex - https://youtu.be/kct_f6hUPlk"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1135
+msgid "Video Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1138
+msgid "Specify the title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1142
+msgid "Video Short Description"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1145
+msgid "Specify the short description"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1149
+msgid "Video Thumb"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1166
+msgid "Tabs"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1169
+msgid "Tabs Container"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1183
+msgid "Tabs Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1186 ../aletheme/functions/vc.php:1315
+msgid "Add data for a tab"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1194
+msgid "Tab Name"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1197
+msgid "Insert a tab title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1201
+msgid "Tab Photo"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1203
+msgid "Select or Upload an image or let it empty to hide photo."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1214 ../aletheme/functions/vc.php:1342
+#: ../aletheme/functions/vc.php:1784
+msgid "Text"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1217 ../aletheme/functions/vc.php:1345
+#: ../aletheme/functions/vc.php:1787
+msgid "Insert a description"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1231
+msgid "Centered Slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1234
+msgid "A Slider with centered active slide."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1248
+msgid "Centered Slider Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1272 ../aletheme/functions/vc.php:1895
+msgid "Slide Descriptions"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1295
+msgid "Icon Tabs"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1298
+msgid "Icon Tabs Container"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1312
+msgid "Icon Tabs Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1323
+msgid "Tab Icon Image"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1329
+msgid "Hover Tab Icon Image"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1349
+msgid "Unique ID"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1352
+msgid "Specify an unique ID."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1365
+msgid "Featured Post"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1368
+msgid "Select a post to be featured"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1375
+msgid "Select 1 post"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1384
+msgid "Select 1 posts or let it empty to load recent post."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1398
+msgid "Image with Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1401
+msgid "Image with Title Container"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1415
+msgid "Image Title Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1418
+msgid "Upload an image and specify the title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1435
+msgid "Insert a title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1439
+msgid "Subtitle"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1442
+msgid "Insert a subtitle"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1449 ../aletheme/functions/vc.php:1550
+msgid "Insert a link or let it empty"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1462 ../aletheme/functions/vc.php:1465
+msgid "Left Icon Service"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1474
+msgid "Select or Upload an icon image."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1478
+msgid "Title field"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1486 ../aletheme/functions/vc.php:1540
+msgid "Description field"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1502 ../aletheme/functions/vc.php:1505
+msgid "Pricing Table"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1512
+msgid "Plan Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1522
+msgid "Type the currency"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1526
+msgid "Price"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1529
+msgid "Type the price"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1533
+msgid "Period"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1536
+msgid "Type the period"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1563 ../aletheme/functions/vc.php:1566
+msgid "Recent Blog Posts"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1573
+msgid "Posts Count"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1576
+msgid "Type the Posts Count"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1601
+msgid "Works Slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1604
+msgid "Slider with images"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1612
+msgid "Slider Info"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1615
+msgid "Type the info. (It is displayed in the left part of the slider)"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1619
+msgid "Slider Pre Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1622
+msgid "Insert a pre title for your Slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1626
+msgid "Slider Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1629
+msgid "Insert a title for your Slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1640
+msgid "Works Slider Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1643
+msgid "Upload images for the slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1667
+msgid "Corporate Team"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1670
+msgid "A box with team member"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1686
+msgid "Type the member name"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1690
+msgid "Member Post"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1693
+msgid "Type the member post"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1697
+msgid "Member Description"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1700
+msgid "Type the member description"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1704
+msgid "Twitter Link"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1707
+msgid "Paste the Twitter link or let it empty"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1711
+msgid "Facebook Link"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1714
+msgid "Paste the Facebook link or let it empty"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1718
+msgid "Google Plus Link"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1721
+msgid "Paste the Google Plus link or let it empty"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1725
+msgid "Pinterest Link"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1728
+msgid "Paste the Pinterest link or let it empty"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1742
+msgid "Timeline"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1745
+msgid "Timeline Container"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1759
+msgid "Timeline Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1762
+msgid "Add data for timeline item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1770 ../partials/work/top_full_slider.php:18
+msgid "Date"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1773
+msgid "Insert the date"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1800
+msgid "Progress Bar"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1803
+msgid "A progress bar"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1810
+msgid "Item Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1813
+msgid "Insert the title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1817
+msgid "Item Progress"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1820
+msgid "Example: 70%"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1824
+msgid "Bar Color"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1826
+#: ../aletheme/taxonomies/tax-meta-class.php:741
+msgid "Select a color"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1830
+msgid "Bar Background Color"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1832
+msgid "Select a background color"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1847
+msgid "Fashion Slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1850
+msgid "A Creative Slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1864
+msgid "Fashion Slider Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1888
+msgid "Slide Sub Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1891
+msgid "Insert a subtitle for your Slide"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1914 ../aletheme/functions/vc.php:1917
+msgid "Stephanie Slider"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1931
+msgid "Stephanie Slider Item"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1934
+msgid "Add data for each item such images."
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1956 ../aletheme/functions/vc.php:1959
+msgid "Recent Post Line"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1966
+msgid "Box Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1969
+msgid "Specify the box title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1973
+msgid "Box Sub Title"
+msgstr ""
+
+#: ../aletheme/functions/vc.php:1976
+msgid "Specify the box subtitle"
+msgstr ""
+
+#: ../aletheme/metaboxes/gallery-meta.php:24
+msgid "Add image(s) to gallery"
+msgstr ""
+
+#: ../aletheme/metaboxes/gallery-meta.php:24
+msgid "Add image(s)"
+msgstr ""
+
+#: ../aletheme/metaboxes/gallery-meta.php:33
+msgid "Change image"
+msgstr ""
+
+#: ../aletheme/options/admin/options-framework.php:196
+#: ../aletheme/options/admin/options-framework.php:203
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../aletheme/options/admin/options-framework.php:235
+msgid "Default options restored."
+msgstr ""
+
+#: ../aletheme/options/admin/options-framework.php:283
+msgid "Options saved."
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:80
+msgid "Video Tutorial"
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:248
+msgid "Font Size:"
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:259
+msgid "The Font:"
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:269
+msgid "Font Style:"
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:279
+msgid "Font Transform:"
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:289
+msgid "Font Weight:"
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:300
+msgid "Font Line Height (px or %):"
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:311
+msgid "Font Color:"
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:389
+msgid "Header Background Color:"
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:395
+msgid "Text Color:"
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:401
+msgid "Header Background Image:"
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:416
+msgid "Width (px):"
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:421
+msgid "Height (px):"
+msgstr ""
+
+#: ../aletheme/options/admin/options-interface.php:428
+msgid "Content Align:"
+msgstr ""
+
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:107
+msgid "Upload"
+msgstr ""
+
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:132
+msgid "View File"
+msgstr ""
+
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:269
+msgid "Gallery"
+msgstr ""
+
+#: ../aletheme/options/admin/options-medialibrary-uploader.php:269
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:253
+msgid "No Repeat"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:254
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:255
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:256
+msgid "Repeat All"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:269
+msgid "Top Left"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:270
+msgid "Top Center"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:271
+msgid "Top Right"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:272
+msgid "Middle Left"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:273
+msgid "Middle Center"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:274
+msgid "Middle Right"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:275
+msgid "Bottom Left"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:276
+msgid "Bottom Center"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:277
+msgid "Bottom Right"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:290
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:291
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:304
+msgid "Auto"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:305
+msgid "Cover"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:306
+msgid "Contain"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:307
+msgid "Initial"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:321
+msgid "Left"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:322
+msgid "Center"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:323
+msgid "Right"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:391
+msgid "Normal"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:392
+msgid "Italic"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:393
+msgid "Bold"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:394
+msgid "Bold Italic"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:411
+msgid "None"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:412
+msgid "Capitalize"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:413
+msgid "Uppercase"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:414
+msgid "Lowercase"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:431
+msgid "Extra-Light 200"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:432
+msgid "Light 300"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:433
+msgid "Regular 400"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:434
+msgid "Medium 500"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:435
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:436
+msgid "Bold 700"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:437
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: ../aletheme/options/admin/options-sanitize.php:438
+msgid "Ultra-bold 900"
+msgstr ""
+
+#: ../aletheme/taxonomies/tax-meta-class.php:373
+#: ../aletheme/taxonomies/tax-meta-class.php:420
+msgid "Remove"
+msgstr ""
+
+#: ../aletheme/taxonomies/tax-meta-class.php:386
+msgid "Add"
+msgstr ""
+
+#: ../aletheme/taxonomies/tax-meta-class.php:719
+msgid "Remove Image"
+msgstr ""
+
+#: ../aletheme/taxonomies/tax-meta-class.php:721
+msgid "Upload Image"
+msgstr ""
+
+#: ../aletheme/taxonomies/taxonomies-fields.php:99
+msgid "Category Icon"
+msgstr ""
+
+#: ../aletheme/taxonomies/taxonomies-fields.php:120
+msgid "Category Icon "
+msgstr ""
+
+#: ../aletheme/widgets/widget-about.php:17
+msgid "A widget that displays a short information about you."
+msgstr ""
+
+#: ../aletheme/widgets/widget-about.php:28
+msgid "Aletheme About Me"
+msgstr ""
+
+#: ../aletheme/widgets/widget-about.php:99
+msgid "About Me"
+msgstr ""
+
+#: ../aletheme/widgets/widget-about.php:109
+#: ../aletheme/widgets/widget-blog.php:116
+#: ../aletheme/widgets/widget-mostcommented.php:138
+msgid "Title:"
+msgstr ""
+
+#: ../aletheme/widgets/widget-about.php:117
+#: ../aletheme/widgets/widget-blog.php:120
+#: ../aletheme/widgets/widget-mostcommented.php:142
+msgid "Posts to show:"
+msgstr ""
+
+#: ../aletheme/widgets/widget-blog.php:15
+msgid "A widget that displays your latest posts with image."
+msgstr ""
+
+#: ../aletheme/widgets/widget-blog.php:26
+msgid "Aletheme Recent Posts"
+msgstr ""
+
+#: ../aletheme/widgets/widget-blog.php:111
+msgid "Latest Blog Posts"
+msgstr ""
+
+#: ../aletheme/widgets/widget-mostcommented.php:77
+#: ../aletheme/widgets/widget-mostcommented.php:90
+#, php-format
+msgid "One comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../aletheme/widgets/widget-mostcommented.php:133
+msgid "Most Commented"
+msgstr ""
+
+#: ../attachment.php:29
+msgid "Continue reading <span class=\"meta-nav\">&amp;raquo;</span>"
+msgstr ""
+
+#: ../attachment.php:30 ../partials/postcontent.php:65
+msgid "Pages:"
+msgstr ""
+
+#: ../comments.php:13 ../partials/blog/blog_info.php:16
+#: ../partials/blog/single_info.php:7
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:13 ../partials/blog/blog_info.php:16
+#: ../partials/blog/single_info.php:7
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:26
+msgid "&larr; Older comments"
+msgstr ""
+
+#: ../comments.php:27
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: ../comments.php:36
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments.php:42
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:48
+#, php-format
+msgid ""
+"Logged in as <a class=\"login_link\" href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr ""
+
+#: ../comments.php:48
+msgid "Log out of this account"
+msgstr ""
+
+#: ../comments.php:48
+msgid "Log out"
+msgstr ""
+
+#: ../comments.php:53
+msgid "Type here your comment"
+msgstr ""
+
+#: ../comments.php:59
+msgid "Your name*"
+msgstr ""
+
+#: ../comments.php:62
+msgid "Your e-mail*"
+msgstr ""
+
+#: ../comments.php:65
+msgid "Your website"
+msgstr ""
+
+#: ../comments.php:71
+msgid "Post a Comment"
+msgstr ""
+
+#: ../partials/blog/author_info.php:3
+msgid "About the author - "
+msgstr ""
+
+#: ../partials/blog/blog_info.php:3
+msgid "Posted at"
+msgstr ""
+
+#: ../partials/blog/blog_info.php:6
+msgid "in"
+msgstr ""
+
+#: ../partials/blog/blog_info.php:11
+msgid "by"
+msgstr ""
+
+#: ../partials/blog/blog_info.php:14
+msgid "and has"
+msgstr ""
+
+#: ../partials/blog/brigitte_preview.php:5
+msgid "Category:"
+msgstr ""
+
+#: ../partials/blog/brigitte_preview.php:18
+msgid "READ MORE"
+msgstr ""
+
+#: ../partials/blog/grid_line.php:3
+msgid "Posted in:"
+msgstr ""
+
+#: ../partials/blog/grid_line.php:21
+msgid "Date:"
+msgstr ""
+
+#: ../partials/blog/single_info.php:2
+msgid "By"
+msgstr ""
+
+#: ../partials/footer/bakery.php:13 ../partials/footer/furniture.php:28
+#: ../partials/footer/zoo.php:43
+msgid "FOLLOW US"
+msgstr ""
+
+#: ../partials/footer/brigitte.php:8
+msgid "GET IN TOUCH ON:"
+msgstr ""
+
+#: ../partials/footer/brigitte.php:24
+msgid "TOP"
+msgstr ""
+
+#: ../partials/footer/fashion.php:4
+msgid "We’re on Instagram"
+msgstr ""
+
+#: ../partials/footer/photography.php:10
+msgid "We are social"
+msgstr ""
+
+#: ../partials/footer/wedding.php:15
+msgid "back to top"
+msgstr ""
+
+#: ../partials/header/brigitte.php:53 ../partials/header/creative.php:59
+#: ../partials/header/viaje.php:30 ../searchform.php:3
+msgid "Type here..."
+msgstr ""
+
+#: ../partials/header/cart_link.php:10
+msgid "Cart"
+msgstr ""
+
+#: ../partials/header/wedding.php:18
+msgid "Menu"
+msgstr ""
+
+#: ../partials/notfound.php:2
+msgid "No results were found for the requested page."
+msgstr ""
+
+#: ../partials/page_head/center_title.php:41
+#: ../partials/page_head/left_title.php:41
+#: ../partials/page_head/parallax_one.php:72
+#: ../partials/page_head/parallax_three.php:71
+#: ../partials/page_head/parallax_two.php:71
+#: ../partials/page_head/simple_image.php:72
+#: ../partials/page_head/wedding_heading.php:72
+#, php-format
+msgid "Daily Archive: %s"
+msgstr ""
+
+#: ../partials/page_head/center_title.php:43
+#: ../partials/page_head/left_title.php:43
+#: ../partials/page_head/parallax_one.php:74
+#: ../partials/page_head/parallax_three.php:73
+#: ../partials/page_head/parallax_two.php:73
+#: ../partials/page_head/simple_image.php:74
+#: ../partials/page_head/wedding_heading.php:74
+#, php-format
+msgid "Monthly Archive: %s"
+msgstr ""
+
+#: ../partials/page_head/center_title.php:43
+#: ../partials/page_head/left_title.php:43
+#: ../partials/page_head/parallax_one.php:74
+#: ../partials/page_head/parallax_three.php:73
+#: ../partials/page_head/parallax_two.php:73
+#: ../partials/page_head/simple_image.php:74
+#: ../partials/page_head/wedding_heading.php:74
+msgid "F Y"
+msgstr ""
+
+#: ../partials/page_head/center_title.php:45
+#: ../partials/page_head/left_title.php:45
+#: ../partials/page_head/parallax_one.php:76
+#: ../partials/page_head/parallax_three.php:75
+#: ../partials/page_head/parallax_two.php:75
+#: ../partials/page_head/simple_image.php:76
+#: ../partials/page_head/wedding_heading.php:76
+#, php-format
+msgid "Yearly Archive: %s"
+msgstr ""
+
+#: ../partials/page_head/center_title.php:45
+#: ../partials/page_head/left_title.php:45
+#: ../partials/page_head/parallax_one.php:76
+#: ../partials/page_head/parallax_three.php:75
+#: ../partials/page_head/parallax_two.php:75
+#: ../partials/page_head/simple_image.php:76
+#: ../partials/page_head/wedding_heading.php:76
+msgid "Y"
+msgstr ""
+
+#: ../partials/page_head/center_title.php:50
+#: ../partials/page_head/left_title.php:50
+#: ../partials/page_head/parallax_one.php:81
+#: ../partials/page_head/parallax_three.php:80
+#: ../partials/page_head/parallax_two.php:80
+#: ../partials/page_head/simple_image.php:81
+#: ../partials/page_head/wedding_heading.php:81
+msgid "page not found"
+msgstr ""
+
+#: ../partials/page_head/parallax_one.php:60
+#: ../partials/page_head/parallax_three.php:59
+#: ../partials/page_head/parallax_two.php:59
+#: ../partials/page_head/simple_image.php:60
+#: ../partials/page_head/wedding_heading.php:60
+msgid "all posts from"
+msgstr ""
+
+#: ../partials/page_head/parallax_one.php:63
+#: ../partials/page_head/parallax_three.php:62
+#: ../partials/page_head/parallax_two.php:62
+#: ../partials/page_head/simple_image.php:63
+#: ../partials/page_head/wedding_heading.php:63
+msgid "all posts from author:"
+msgstr ""
+
+#: ../partials/page_head/parallax_one.php:66
+#: ../partials/page_head/parallax_three.php:65
+#: ../partials/page_head/parallax_two.php:65
+#: ../partials/page_head/simple_image.php:66
+#: ../partials/page_head/wedding_heading.php:66
+msgid "tagged to:"
+msgstr ""
+
+#: ../partials/page_head/parallax_one.php:69
+#: ../partials/page_head/parallax_three.php:68
+#: ../partials/page_head/parallax_two.php:68
+#: ../partials/page_head/simple_image.php:69
+#: ../partials/page_head/wedding_heading.php:69
+msgid "search results for"
+msgstr ""
+
+#: ../partials/page_head/parallax_one.php:82
+#: ../partials/page_head/parallax_three.php:81
+#: ../partials/page_head/parallax_two.php:81
+#: ../partials/page_head/simple_image.php:82
+#: ../partials/page_head/wedding_heading.php:82
+msgid "upppsss:"
+msgstr ""
+
+#: ../partials/pagination.php:10 ../partials/pagination.php:11
+msgid "Go to previous page"
+msgstr ""
+
+#: ../partials/pagination.php:14 ../partials/pagination.php:15
+msgid "Go to next page"
+msgstr ""
+
+#: ../partials/postcontent.php:61
+msgid "Tagged to: "
+msgstr ""
+
+#: ../partials/postcontent.php:77
+msgid "Share this post, choose your Platform!"
+msgstr ""
+
+#: ../partials/social_text_links.php:4
+msgid "Linkedin"
+msgstr ""
+
+#: ../partials/social_text_links.php:6
+msgid "Google +"
+msgstr ""
+
+#: ../partials/social_text_links.php:10
+msgid "Vkontakte"
+msgstr ""
+
+#: ../partials/work/brigitte_slider.php:20
+msgid "Share"
+msgstr ""
+
+#: ../partials/work/brigitte_slider.php:71
+msgid "Photos"
+msgstr ""
+
+#: ../partials/work/brigitte_slider.php:75
+#: ../vc_templates/olins_works_slider.php:40
+msgid "of"
+msgstr ""
+
+#: ../partials/work/top_full_slider.php:5
+msgid "Category"
+msgstr ""
+
+#: ../vc_templates/olins_contact_form.php:38
+#: ../vc_templates/olins_simple_form.php:21
+msgid "Thank you for your message!"
+msgstr ""
+
+#: ../vc_templates/olins_featured_post.php:33
+#: ../vc_templates/olins_featured_post.php:67
+msgid "Take a Look"
+msgstr ""
+
+#: ../vc_templates/olins_featured_post.php:42
+#: ../vc_templates/olins_featured_post.php:76
+msgid "Create a post in Dashboard."
+msgstr ""
+
+#: ../vc_templates/olins_google_maps.php:123
+msgid "No location for the address."
+msgstr ""
+
+#: ../vc_templates/olins_google_maps.php:125
+msgid "Bad request. Did you enter an address name?"
+msgstr ""
+
+#: ../vc_templates/olins_google_maps.php:127
+msgid "Error, please check if you have entered the shortcode correctly."
+msgstr ""
+
+#: ../vc_templates/olins_google_maps.php:131
+msgid "Can't connect Google API."
+msgstr ""
+
+#: ../vc_templates/olins_move_slider_item.php:27
+#: ../vc_templates/olins_pretty_team_item.php:33
+#: ../vc_templates/olins_slider_one_item.php:27
+msgid "details"
+msgstr ""
+
+#: ../vc_templates/olins_pricing_table.php:47
+#: ../vc_templates/olins_scale_image_box.php:32
+#: ../vc_templates/olins_testimonials_slider_item.php:28
+msgid "Details"
+msgstr ""
+
+#: ../vc_templates/olins_product_carousel_slider.php:110
+msgid "No products found"
+msgstr ""
+
+#: ../vc_templates/olins_product_carousel_slider.php:115
+msgid ""
+"Install WooCommerce Plugin to be able to use the Products Carousel Slider"
+msgstr ""
+
+#: ../vc_templates/olins_recent_post_line.php:34
+msgid "CONTINUE"
+msgstr ""
+
+#: ../vc_templates/olins_recent_post_line.php:40
+msgid "Add some posts."
+msgstr ""
+
+#: ../vc_templates/olins_recent_post_line.php:48
+msgid "VIEW ALL"
+msgstr ""
+
+#: ../vc_templates/olins_recent_works_line.php:71
+#: ../vc_templates/olins_selected_works.php:116
+#: ../vc_templates/olins_works_masonry_grid.php:98
+#: ../vc_templates/olins_works_masonry_grid.php:132
+#: ../vc_templates/olins_works_masonry_grid.php:172
+#: ../vc_templates/olins_works_masonry_grid.php:204
+#: ../vc_templates/olins_works_masonry_grid.php:242
+#: ../vc_templates/olins_works_masonry_grid.php:294
+msgid "Add some posts in Works Post Type section"
+msgstr ""

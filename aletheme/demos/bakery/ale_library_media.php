@@ -1,0 +1,13 @@
+<?php
+ale_demo_media::add_image_to_media_gallery('ale_shop1',"http://alethemes.com/olins_base/media/bakery/shop_1.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_shop2',"http://alethemes.com/olins_base/media/bakery/shop_2.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_shop3',"http://alethemes.com/olins_base/media/bakery/shop_3.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_shop4',"http://alethemes.com/olins_base/media/bakery/shop_4.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_shop5',"http://alethemes.com/olins_base/media/bakery/shop_5.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_shop6',"http://alethemes.com/olins_base/media/bakery/shop_6.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_shop7',"http://alethemes.com/olins_base/media/bakery/shop_7.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_shop8',"http://alethemes.com/olins_base/media/bakery/shop_8.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_shop9',"http://alethemes.com/olins_base/media/bakery/shop_9.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_shop10',"http://alethemes.com/olins_base/media/bakery/shop_10.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_shop11',"http://alethemes.com/olins_base/media/bakery/shop_11.jpg");
+ale_demo_media::add_image_to_media_gallery('ale_shop12',"http://alethemes.com/olins_base/media/bakery/shop_12.jpg");
