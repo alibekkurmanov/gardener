@@ -1045,165 +1045,830 @@ function ale_metaboxes($meta_boxes) {
     $prefix = "ale_";
 
     $meta_boxes[] = array(
-        'id'         => 'title_heading_metabox',
-        'title'      => esc_html__('Title Heading Styles','olins'),
-        'pages'      => array( 'page', 'post', 'works' ), // Post type
+        'id'         => 'home_settings_metabox',
+        'title'      => esc_html__('Home Page Settings','gardener'),
+        'pages'      => array( 'page', ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_on'    => array( 'key' => 'page-template', 'value' => array('template-homepage.php'), ), // Specific post templates to display this metabox
+        'show_names' => true, // Show field names on the left
+        'fields' => array(
+
+            array(
+                'name' => esc_html__('Enable Order Form Box','gardener'),
+                'desc' => esc_html__('Enable or disable the order form on Homepage','gardener'),
+                'id'   => $prefix . 'order_form',
+                'std'  => 'enable',
+                'type'    => 'select',
+                'options' => array(
+                    array( 'name' => esc_html__('Enable','gardener'), 'value' => 'enable', ),
+                    array( 'name' => esc_html__('Disable','gardener'), 'value' => 'disable', ),
+                ),
+            ),
+
+            array(
+                'name' => esc_html__('Enable Services Box','gardener'),
+                'desc' => esc_html__('Enable or disable the services on Homepage','gardener'),
+                'id'   => $prefix . 'services_box',
+                'std'  => 'enable',
+                'type'    => 'select',
+                'options' => array(
+                    array( 'name' => esc_html__('Enable','gardener'), 'value' => 'enable', ),
+                    array( 'name' => esc_html__('Disable','gardener'), 'value' => 'disable', ),
+                ),
+            ),
+
+            array(
+                'name' => esc_html__('Enable Partners Box','gardener'),
+                'desc' => esc_html__('Enable or disable the Partners on Homepage','gardener'),
+                'id'   => $prefix . 'partners_box',
+                'std'  => 'enable',
+                'type'    => 'select',
+                'options' => array(
+                    array( 'name' => esc_html__('Enable','gardener'), 'value' => 'enable', ),
+                    array( 'name' => esc_html__('Disable','gardener'), 'value' => 'disable', ),
+                ),
+            ),
+
+            array(
+                'name' => esc_html__('Enable Testimonials Box','gardener'),
+                'desc' => esc_html__('Enable or disable the Testimonials on Homepage','gardener'),
+                'id'   => $prefix . 'testimonials_box',
+                'std'  => 'enable',
+                'type'    => 'select',
+                'options' => array(
+                    array( 'name' => esc_html__('Enable','gardener'), 'value' => 'enable', ),
+                    array( 'name' => esc_html__('Disable','gardener'), 'value' => 'disable', ),
+                ),
+            ),
+            array(
+                'name' => esc_html__('Enable Portfolio Box','gardener'),
+                'desc' => esc_html__('Enable or disable the portfolio on Homepage','gardener'),
+                'id'   => $prefix . 'portfolio_box',
+                'std'  => 'enable',
+                'type'    => 'select',
+                'options' => array(
+                    array( 'name' => esc_html__('Enable','gardener'), 'value' => 'enable', ),
+                    array( 'name' => esc_html__('Disable','gardener'), 'value' => 'disable', ),
+                ),
+            ),
+
+            array(
+                'name' => esc_html__('Order Box Custom Title','gardener'),
+                'desc' => esc_html__('Type here the custom title for your order box.','gardener'),
+                'id'   => $prefix . 'order_box_title',
+                'std'  => 'Order gardener',
+                'type'    => 'text',
+            ),
+
+            array(
+                'name' => esc_html__('Gardeners Section Title','gardener'),
+                'desc' => esc_html__('Type here the custom title for your gardeners section.','gardener'),
+                'id'   => $prefix . 'gardeners_title',
+                'std'  => 'Gardeners',
+                'type'    => 'text',
+            ),
+
+            array(
+                'name' => esc_html__('Order Box Gardener Sub Title','gardener'),
+                'desc' => esc_html__('Type here the custom sub title.','gardener'),
+                'id'   => $prefix . 'order_box_gardener_subtitle',
+                'std'  => 'Our best specialists',
+                'type'    => 'text',
+            ),
+
+            array(
+                'name' => esc_html__('Projects Section Title','gardener'),
+                'desc' => esc_html__('Type here the custom title for your projects section.','gardener'),
+                'id'   => $prefix . 'l_projects_title',
+                'std'  => 'Latest projects',
+                'type'    => 'text',
+            ),
+
+            array(
+                'name' => esc_html__('Projects Section Link Title','gardener'),
+                'desc' => esc_html__('Type here the custom title for your projects section link title.','gardener'),
+                'id'   => $prefix . 'l_projects_link_title',
+                'std'  => 'All projects',
+                'type'    => 'text',
+            ),
+
+
+            array(
+                'name' => esc_html__('Partners Title','gardener'),
+                'desc' => esc_html__('Type here the custom title for your partners title.','gardener'),
+                'id'   => $prefix . 'partners_title',
+                'std'  => 'Our partners',
+                'type'    => 'text',
+            ),
+
+            array(
+                'name' => esc_html__('Partners Box Background','gardener'),
+                'desc' => esc_html__('Upload here a background image. Recommended size: 1920-713px','gardener'),
+                'id'   => $prefix . 'partners_bg',
+                'std'  => '',
+                'type'    => 'file',
+            ),
+        )
+    );
+
+
+    $meta_boxes[] = array(
+        'id'         => 'about_settings_metabox',
+        'title'      => esc_html__('About Page Settings','gardener'),
+        'pages'      => array( 'page', ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_on'    => array( 'key' => 'page-template', 'value' => array('template-about.php'), ), // Specific post templates to display this metabox
+        'show_names' => true, // Show field names on the left
+        'fields' => array(
+
+            array(
+                'name' => esc_html__('Enable Additional Info Box','gardener'),
+                'desc' => esc_html__('Enable or disable the additional info box','gardener'),
+                'id'   => $prefix . 'additional_info',
+                'std'  => 'enable',
+                'type'    => 'select',
+                'options' => array(
+                    array( 'name' => esc_html__('Enable','gardener'), 'value' => 'enable', ),
+                    array( 'name' => esc_html__('Disable','gardener'), 'value' => 'disable', ),
+                ),
+            ),
+            array(
+                'name' => esc_html__('Enable Skills Box','gardener'),
+                'desc' => esc_html__('Enable or disable the skills box','gardener'),
+                'id'   => $prefix . 'skills_info',
+                'std'  => 'enable',
+                'type'    => 'select',
+                'options' => array(
+                    array( 'name' => esc_html__('Enable','gardener'), 'value' => 'enable', ),
+                    array( 'name' => esc_html__('Disable','gardener'), 'value' => 'disable', ),
+                ),
+            ),
+            array(
+                'name' => esc_html__('Enable Video & Partners Box','gardener'),
+                'desc' => esc_html__('Enable or disable the video/partners box','gardener'),
+                'id'   => $prefix . 'video_info',
+                'std'  => 'enable',
+                'type'    => 'select',
+                'options' => array(
+                    array( 'name' => esc_html__('Enable','gardener'), 'value' => 'enable', ),
+                    array( 'name' => esc_html__('Disable','gardener'), 'value' => 'disable', ),
+                ),
+            ),
+
+            array(
+                'name' => esc_html__('Partners Title','gardener'),
+                'desc' => esc_html__('Type here the custom title for your partners title.','gardener'),
+                'id'   => $prefix . 'partners_title',
+                'std'  => 'Our partners',
+                'type'    => 'text',
+            ),
+        )
+    );
+
+
+    $meta_boxes[] = array(
+        'id'         => 'about_author_metabox',
+        'title'      => esc_html__('Author Settings','gardener'),
+        'pages'      => array( 'page', ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_on'    => array( 'key' => 'page-template', 'value' => array('template-about.php'), ), // Specific post templates to display this metabox
+        'show_names' => true, // Show field names on the left
+        'fields' => array(
+
+            array(
+                'name' => esc_html__('Subtitle Title','gardener'),
+                'desc' => esc_html__('Type here the subtitle.','gardener'),
+                'id'   => $prefix . 'author_subtitle',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+
+            array(
+                'name' => esc_html__('Author Photo','gardener'),
+                'desc' => esc_html__('Upload a photo. Recommended size 371px-416px','gardener'),
+                'id'   => $prefix . 'author_photo',
+                'std'  => '',
+                'type'    => 'file',
+            ),
+            array(
+                'name' => esc_html__('Author Name','gardener'),
+                'desc' => esc_html__('Type here the author name','gardener'),
+                'id'   => $prefix . 'author_name',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+
+            array(
+                'name' => esc_html__('Author Position','gardener'),
+                'desc' => esc_html__('Type here the position','gardener'),
+                'id'   => $prefix . 'author_position',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+        )
+    );
+
+    $meta_boxes[] = array(
+        'id'         => 'about_add_settings_metabox',
+        'title'      => esc_html__('Additional Info Settings','gardener'),
+        'pages'      => array( 'page', ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_on'    => array( 'key' => 'page-template', 'value' => array('template-about.php'), ), // Specific post templates to display this metabox
+        'show_names' => true, // Show field names on the left
+        'fields' => array(
+
+            array(
+                'name' => esc_html__('Container Title','gardener'),
+                'desc' => esc_html__('Type here the title.','gardener'),
+                'id'   => $prefix . 'info_title',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+
+            array(
+                'name' => esc_html__('Photo #1','gardener'),
+                'desc' => esc_html__('Upload a photo #1. Recommended size 550-340px','gardener'),
+                'id'   => $prefix . 'info_photo_one',
+                'std'  => '',
+                'type'    => 'file',
+            ),
+            array(
+                'name' => esc_html__('Photo #2','gardener'),
+                'desc' => esc_html__('Upload a photo #2. Recommended size 429-377px','gardener'),
+                'id'   => $prefix . 'info_photo_two',
+                'std'  => '',
+                'type'    => 'file',
+            ),
+
+            array(
+                'name' => esc_html__('Info Description','gardener'),
+                'desc' => esc_html__('Type here the description.','gardener'),
+                'id'   => $prefix . 'info_description',
+                'std'  => '',
+                'type'    => 'wysiwyg',
+            ),
+        )
+    );
+
+
+
+    $meta_boxes[] = array(
+        'id'         => 'about_skills_settings_metabox',
+        'title'      => esc_html__('Skills Settings','gardener'),
+        'pages'      => array( 'page', ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_on'    => array( 'key' => 'page-template', 'value' => array('template-about.php'), ), // Specific post templates to display this metabox
+        'show_names' => true, // Show field names on the left
+        'fields' => array(
+            array(
+                'name' => esc_html__('Icon #1','gardener'),
+                'desc' => esc_html__('Upload a photo #1.','gardener'),
+                'id'   => $prefix . 'info_icon_1',
+                'std'  => '',
+                'type'    => 'file',
+            ),
+            array(
+                'name' => esc_html__('Title #1','gardener'),
+                'desc' => esc_html__('Type here the title #1.','gardener'),
+                'id'   => $prefix . 'skills_title_1',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Description #1','gardener'),
+                'desc' => esc_html__('Type here the description #1.','gardener'),
+                'id'   => $prefix . 'skills_description_1',
+                'std'  => '',
+                'type'    => 'textarea',
+            ),
+
+            array(
+                'name' => esc_html__('Icon #2','gardener'),
+                'desc' => esc_html__('Upload a photo #2.','gardener'),
+                'id'   => $prefix . 'info_icon_2',
+                'std'  => '',
+                'type'    => 'file',
+            ),
+            array(
+                'name' => esc_html__('Title #2','gardener'),
+                'desc' => esc_html__('Type here the title #2.','gardener'),
+                'id'   => $prefix . 'skills_title_2',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Description #2','gardener'),
+                'desc' => esc_html__('Type here the description #2.','gardener'),
+                'id'   => $prefix . 'skills_description_2',
+                'std'  => '',
+                'type'    => 'textarea',
+            ),
+
+            array(
+                'name' => esc_html__('Icon #3','gardener'),
+                'desc' => esc_html__('Upload a photo #3.','gardener'),
+                'id'   => $prefix . 'info_icon_3',
+                'std'  => '',
+                'type'    => 'file',
+            ),
+            array(
+                'name' => esc_html__('Title #3','gardener'),
+                'desc' => esc_html__('Type here the title #3.','gardener'),
+                'id'   => $prefix . 'skills_title_3',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Description #3','gardener'),
+                'desc' => esc_html__('Type here the description #3.','gardener'),
+                'id'   => $prefix . 'skills_description_3',
+                'std'  => '',
+                'type'    => 'textarea',
+            ),
+
+
+        )
+    );
+
+    $meta_boxes[] = array(
+        'id'         => 'about_video_settings_metabox',
+        'title'      => esc_html__('Video Settings','gardener'),
+        'pages'      => array( 'page', ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_on'    => array( 'key' => 'page-template', 'value' => array('template-about.php'), ), // Specific post templates to display this metabox
+        'show_names' => true, // Show field names on the left
+        'fields' => array(
+            array(
+                'name' => esc_html__('Video Photo','gardener'),
+                'desc' => esc_html__('Upload a photo','gardener'),
+                'id'   => $prefix . 'video_photo',
+                'std'  => '',
+                'type'    => 'file',
+            ),
+            array(
+                'name' => esc_html__('Video Link','gardener'),
+                'desc' => esc_html__('Type here the link.','gardener'),
+                'id'   => $prefix . 'video_link',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Title','gardener'),
+                'desc' => esc_html__('Type here the title.','gardener'),
+                'id'   => $prefix . 'video_title',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Description','gardener'),
+                'desc' => esc_html__('Type here the description.','gardener'),
+                'id'   => $prefix . 'video_description',
+                'std'  => '',
+                'type'    => 'textarea',
+            ),
+
+        )
+    );
+
+    $meta_boxes[] = array(
+        'id'         => 'contact_settings_metabox',
+        'title'      => esc_html__('Contact Settings','gardener'),
+        'pages'      => array( 'page', ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_on'    => array( 'key' => 'page-template', 'value' => array('template-contact.php'), ), // Specific post templates to display this metabox
+        'show_names' => true, // Show field names on the left
+        'fields' => array(
+            array(
+                'name' => esc_html__('Phone Label','gardener'),
+                'desc' => esc_html__('Insert here the phone label','gardener'),
+                'id'   => $prefix . 'phono_label',
+                'std'  => 'Phone',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Phone Number','gardener'),
+                'desc' => esc_html__('Insert here the phone number','gardener'),
+                'id'   => $prefix . 'phone_number',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Email Label','gardener'),
+                'desc' => esc_html__('Insert here the email label','gardener'),
+                'id'   => $prefix . 'email_label',
+                'std'  => 'Email',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Your Email','gardener'),
+                'desc' => esc_html__('Insert here the email','gardener'),
+                'id'   => $prefix . 'your_email',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Address Label','gardener'),
+                'desc' => esc_html__('Insert here the address label','gardener'),
+                'id'   => $prefix . 'address_label',
+                'std'  => 'Address',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Your Address','gardener'),
+                'desc' => esc_html__('Insert here the address','gardener'),
+                'id'   => $prefix . 'your_address',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+
+
+            array(
+                'name' => esc_html__('Contact Form Title','gardener'),
+                'desc' => esc_html__('Insert here the title','gardener'),
+                'id'   => $prefix . 'contact_title',
+                'std'  => 'Contact form',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Contact Form Description','gardener'),
+                'desc' => esc_html__('Insert here the description','gardener'),
+                'id'   => $prefix . 'contact_description',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+        )
+    );
+
+
+    $meta_boxes[] = array(
+        'id'         => 'posts_pages_metabox',
+        'title'      => esc_html__('Post Settings','gardener'),
+        'pages'      => array( 'post', ), // Post type
         'context'    => 'normal',
         'priority'   => 'high',
         'show_names' => true, // Show field names on the left
         'fields' => array(
+
             array(
-                'name' => esc_html__('Page Heading Mask?','olins'),
-                'desc' => esc_html__('Enable or disable the mask on page heading images background (if it supports)','olins'),
-                'id'   => $prefix . 'maskonheading',
-                'std'  => 'disable',
-                'type'    => 'select',
-                'options' => array(
-                    array( 'name' => esc_html__('Disable Mask','olins'), 'value' => 'disable', ),
-                    array( 'name' => esc_html__('Black & White','olins'), 'value' => 'blackwhite', ),
-                    array( 'name' => esc_html__('Dark 40% Opacity','olins'), 'value' => 'black_40', ),
-                    array( 'name' => esc_html__('Black 40% Opacity','olins'), 'value' => 'negru_40', ),
-                ),
+                'name' => esc_html__('Sub Title','gardener'),
+                'desc' => esc_html__('Type here the sub title.','gardener'),
+                'id'   => $prefix . 'post_sub_title',
+                'std'  => '',
+                'type'    => 'text',
             ),
+        )
+    );
+
+    $meta_boxes[] = array(
+        'id'         => 'slider_settings_metabox',
+        'title'      => esc_html__('Slider Options','gardener'),
+        'pages'      => array( 'post', ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_names' => true, // Show field names on the left
+        'fields' => array(
+
             array(
-                'name' => esc_html__('Featured Image Size - Cover.','olins'),
-                'desc' => esc_html__('Check this field to make the featured image size cover in the page heading.','olins'),
-                'id'   => $prefix . 'featuredimagecover',
+                'name' => esc_html__('Show this post in Slider','gardener'),
+                'desc' => esc_html__('Check this item if you want to show it in the home slider','gardener'),
+                'id'   => $prefix . 'post_to_slider',
+                'std'  => '',
                 'type'    => 'checkbox',
             ),
+
             array(
-                'name' => esc_html__('Post Pre Title','olins'),
-                'desc' => esc_html__('Insert the Pre Title','olins'),
-                'id'   => $prefix . 'post_pre_title',
-                'type'    => 'text',
-            ),
-            array(
-                'name' => esc_html__('Title and Pre Title Position','olins'),
-                'desc' => esc_html__('Specify the position for the Title and Pre Title','olins'),
-                'id'   => $prefix . 'post_title_position',
+                'name' => esc_html__('Main Image','gardener'),
+                'desc' => esc_html__('Upload the main image. Recommended size: 1100px - 491px','gardener'),
+                'id'   => $prefix . 'main_image',
                 'std'  => '',
-                'type'    => 'select',
-                'options' => array(
-                    array( 'name' => esc_html__('After the Page Heading','olins'), 'value' => 'afterheading', ),
-                    array( 'name' => esc_html__('Into the Page Heading','olins'), 'value' => 'onheadingfeatured', ),
-                    array( 'name' => esc_html__('After the Page Heading. Show Default in Heading','olins'), 'value' => 'afterheadingwithdefaults', ),
-                    array( 'name' => esc_html__('After Thumb/Slider. Show Default in Heading','olins'), 'value' => 'afterfeaturedimage', ),
-                    array( 'name' => esc_html__('After Heading. Make Heading full width. Used on Wedding Variant.','olins'), 'value' => 'fullwidthwedding', ),
-                    array( 'name' => esc_html__('Do not show','olins'), 'value' => 'disable', ),
-                ),
+                'type'    => 'file',
             ),
+
             array(
-                'name' => esc_html__('Featured Image Position','olins'),
-                'desc' => esc_html__('Specify the position for the Featured Image','olins'),
-                'id'   => $prefix . 'featured_position',
+                'name' => esc_html__('Background Image','gardener'),
+                'desc' => esc_html__('Upload the background image. Recommended size: 1920px - 890px','gardener'),
+                'id'   => $prefix . 'background_image',
                 'std'  => '',
-                'type'    => 'select',
-                'options' => array(
-                    array( 'name' => esc_html__('In Page Headings as background (if it supports)','olins'), 'value' => 'in_heading', ),
-                    array( 'name' => esc_html__('In Content Area','olins'), 'value' => 'in_content', ),
-                    array( 'name' => esc_html__('Do not display','olins'), 'value' => 'no', ),
-                ),
-            ),
-            array(
-                'name' => esc_html__('Sidebar Position','olins'),
-                'desc' => esc_html__('Specify a sidebar position','olins'),
-                'id'   => $prefix . 'sidebar_position',
-                'std'  => 'no',
-                'type'    => 'select',
-                'options' => array(
-                    array( 'name' => esc_html__('No Sidebar','olins'), 'value' => 'no', ),
-                    array( 'name' => esc_html__('1/3 Left','olins'), 'value' => 'left_third', ),
-                    array( 'name' => esc_html__('1/4 Left','olins'), 'value' => 'left_fourth', ),
-                    array( 'name' => esc_html__('1/3 Right','olins'), 'value' => 'right_third', ),
-                    array( 'name' => esc_html__('1/4 Right','olins'), 'value' => 'right_fourth', ),
-                ),
+                'type'    => 'file',
             ),
         )
     );
 
+
+
     $meta_boxes[] = array(
-        'id'         => 'posts_metabox',
-        'title'      => esc_html__('Posts Settings','olins'),
-        'pages'      => array( 'post', 'works' ), // Post type
+        'id'         => 'gardeners_metabox',
+        'title'      => esc_html__('Gardeners Options','gardener'),
+        'pages'      => array( 'gardeners', ), // Post type
         'context'    => 'normal',
         'priority'   => 'high',
         'show_names' => true, // Show field names on the left
         'fields' => array(
 
             array(
-                'name' => esc_html__('Post Info Line Position','olins'),
-                'desc' => esc_html__('Select a position for the post info line.','olins'),
-                'id'   => $prefix . 'post_info_line',
-                'type'    => 'select',
-                'options' => array(
-                    array( 'name' => esc_html__('Before Content','olins'), 'value' => 'before_content', ),
-                    array( 'name' => esc_html__('After Content','olins'), 'value' => 'after_content', ),
-                    array( 'name' => esc_html__('Hide Info Line, Show Grid Line','olins'), 'value' => 'grid_line', ),
-                    array( 'name' => esc_html__('Right Column','olins'), 'value' => 'right_column', ),
-                    array( 'name' => esc_html__('Hide Info Line, Show Thumbs Line (for Wedding Variant)','olins'), 'value' => 'thumbs_line', ),
-                    array( 'name' => esc_html__('Disable Info Line','olins'), 'value' => 'disable', ),
-                ),
-            ),
-            array(
-                'name' => esc_html__('Author Info','olins'),
-                'desc' => esc_html__('Enable or disable the author info box before the content','olins'),
-                'id'   => $prefix . 'author_info',
-                'std'  => 'disable',
-                'type'    => 'select',
-                'options' => array(
-                    array( 'name' => esc_html__('Disable Author Info Block','olins'), 'value' => 'disable', ),
-                    array( 'name' => esc_html__('Enable Author Info Block','olins'), 'value' => 'enable', ),
-                ),
-            ),
-            array(
-                'name' => esc_html__('Related posts','olins'),
-                'desc' => esc_html__('Show or hide the related posts block?','olins'),
-                'id'   => $prefix . 'related_posts',
-                'std'  => 'disable',
-                'type'    => 'select',
-                'options' => array(
-                    array( 'name' => esc_html__('Hide Related Posts','olins'), 'value' => 'disable', ),
-                    array( 'name' => esc_html__('Show Related Posts (Random)','olins'), 'value' => 'enable', ),
-                ),
-            ),
-            array(
-                'name' => esc_html__('Related Posts Block Title','olins'),
-                'desc' => esc_html__('Insert the Title','olins'),
-                'id'   => $prefix . 'related_posts_title',
+                'name' => esc_html__('Gardener Position','gardener'),
+                'desc' => esc_html__('Type here the Gardener position','gardener'),
+                'id'   => $prefix . 'gardener_post',
+                'std'  => '',
                 'type'    => 'text',
             ),
 
             array(
-                'name' => esc_html__('Related Posts Count','olins'),
-                'desc' => esc_html__('Insert the count number','olins'),
-                'id'   => $prefix . 'related_posts_count',
+                'name' => esc_html__('Description Title','gardener'),
+                'desc' => esc_html__('Type here the Gardener description title','gardener'),
+                'id'   => $prefix . 'gardener_title',
+                'std'  => '',
                 'type'    => 'text',
             ),
+
+            array(
+                'name' => esc_html__('Staff Member?','gardener'),
+                'desc' => esc_html__('Check the field if the person is staff.','gardener'),
+                'id'   => $prefix . 'gardener_staff',
+                'std'  => '',
+                'type'    => 'checkbox',
+            ),
+
+            array(
+                'name' => esc_html__('Facebook link Profile','gardener'),
+                'desc' => esc_html__('Type here the Gardener profile link','gardener'),
+                'id'   => $prefix . 'gardener_fb',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+
+            array(
+                'name' => esc_html__('Twitter link Profile','gardener'),
+                'desc' => esc_html__('Type here the Gardener profile link','gardener'),
+                'id'   => $prefix . 'gardener_twi',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Gardener Email','gardener'),
+                'desc' => esc_html__('Type here the Gardener email','gardener'),
+                'id'   => $prefix . 'gardener_email',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+
         )
     );
 
+
+
     $meta_boxes[] = array(
-        'id'         => 'works_metabox',
-        'title'      => esc_html__('Works Settings','olins'),
-        'pages'      => array( 'works' ), // Post type
+        'id'         => 'services_metabox',
+        'title'      => esc_html__('Services Options','gardener'),
+        'pages'      => array( 'services' ), // Post type
         'context'    => 'normal',
         'priority'   => 'high',
         'show_names' => true, // Show field names on the left
         'fields' => array(
 
             array(
-                'name' => esc_html__('Gallery Slider Type','olins'),
-                'desc' => esc_html__('Select a variant for the Gallery Slider','olins'),
-                'id'   => $prefix . 'gallery_slider',
+                'name' => esc_html__('Service Small Icon','gardener'),
+                'desc' => esc_html__('Upload here an icon. Recommended size: 100px-100px','gardener'),
+                'id'   => $prefix . 'service_icon',
+                'std'  => '',
+                'type'    => 'file',
+            ),
+
+            array(
+                'name' => esc_html__('Service Small Icon Hover','gardener'),
+                'desc' => esc_html__('Upload here an icon. Recommended size: 100px-100px','gardener'),
+                'id'   => $prefix . 'service_icon_hover',
+                'std'  => '',
+                'type'    => 'file',
+            ),
+
+
+            array(
+                'name' => esc_html__('Service Big Icon','gardener'),
+                'desc' => esc_html__('Upload here an icon. Recommended size: 100px-100px','gardener'),
+                'id'   => $prefix . 'service_bigicon',
+                'std'  => '',
+                'type'    => 'file',
+            ),
+
+            array(
+                'name' => esc_html__('Service Big Icon Hover','gardener'),
+                'desc' => esc_html__('Upload here an icon. Recommended size: 100px-100px','gardener'),
+                'id'   => $prefix . 'service_bigicon_hover',
+                'std'  => '',
+                'type'    => 'file',
+            ),
+
+
+            array(
+                'name' => esc_html__('Service Description Image','gardener'),
+                'desc' => esc_html__('Upload here an icon. Recommended size: 816px-158px','gardener'),
+                'id'   => $prefix . 'service_description_image',
+                'std'  => '',
+                'type'    => 'file',
+            ),
+
+            array(
+                'name' => esc_html__('Service Sub Title','gardener'),
+                'desc' => esc_html__('Type here the sub title','gardener'),
+                'id'   => $prefix . 'service_subtitle',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+
+            array(
+                'name' => esc_html__('Link #1','gardener'),
+                'desc' => esc_html__('Type here the link','gardener'),
+                'id'   => $prefix . 'service_link_one',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Label Link #1','gardener'),
+                'desc' => esc_html__('Type here the link label','gardener'),
+                'id'   => $prefix . 'service_label_one',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+
+            array(
+                'name' => esc_html__('Link #2','gardener'),
+                'desc' => esc_html__('Type here the link','gardener'),
+                'id'   => $prefix . 'service_link_two',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Label Link #2','gardener'),
+                'desc' => esc_html__('Type here the link label','gardener'),
+                'id'   => $prefix . 'service_label_two',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Link #3','gardener'),
+                'desc' => esc_html__('Type here the link','gardener'),
+                'id'   => $prefix . 'service_link_three',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Label Link #3','gardener'),
+                'desc' => esc_html__('Type here the link label','gardener'),
+                'id'   => $prefix . 'service_label_three',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+
+
+            array(
+                'name' => esc_html__('The Price','gardener'),
+                'desc' => esc_html__('Type here the service','gardener'),
+                'id'   => $prefix . 'service_price',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('The Currency','gardener'),
+                'desc' => esc_html__('Type here the currency','gardener'),
+                'id'   => $prefix . 'service_currency',
+                'std'  => '$',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('The Price Type','gardener'),
+                'desc' => esc_html__('Type here the price type. ex: per hour/per square or let it empty.','gardener'),
+                'id'   => $prefix . 'service_price_type',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+        )
+    );
+
+
+    $meta_boxes[] = array(
+        'id'         => 'partners_metabox',
+        'title'      => esc_html__('Partners Options','gardener'),
+        'pages'      => array( 'partners' ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_names' => true, // Show field names on the left
+        'fields' => array(
+
+
+            array(
+                'name' => esc_html__('Partner Sub Title','gardener'),
+                'desc' => esc_html__('Type here the sub title','gardener'),
+                'id'   => $prefix . 'partner_subtitle',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+
+            array(
+                'name' => esc_html__('Site','gardener'),
+                'desc' => esc_html__('Type here the site','gardener'),
+                'id'   => $prefix . 'partner_site',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Project Link','gardener'),
+                'desc' => esc_html__('Type here the partner project link','gardener'),
+                'id'   => $prefix . 'partner_link',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+
+        )
+    );
+
+
+    $meta_boxes[] = array(
+        'id'         => 'testimonial_metabox',
+        'title'      => esc_html__('Testimonials Options','gardener'),
+        'pages'      => array( 'testimonials' ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_names' => true, // Show field names on the left
+        'fields' => array(
+
+
+            array(
+                'name' => esc_html__('Author Position','gardener'),
+                'desc' => esc_html__('Type here the author position/profession.','gardener'),
+                'id'   => $prefix . 'testy_position',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+
+            array(
+                'name' => esc_html__('Author Subtitle','gardener'),
+                'desc' => esc_html__('Type here the subtitle','gardener'),
+                'id'   => $prefix . 'testy_subtitle',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Author Rating','gardener'),
+                'desc' => esc_html__('Select the star count from 1 to 5','gardener'),
+                'id'   => $prefix . 'testy_rating',
+                'std'  => '',
                 'type'    => 'select',
                 'options' => array(
-                    array( 'name' => esc_html__('Slider Before Content','olins'), 'value' => 'before_content', ),
-                    array( 'name' => esc_html__('Top Info, Full Width Slider','olins'), 'value' => 'top_full', ),
-                    array( 'name' => esc_html__('Thumbnails Grid','olins'), 'value' => 'thumbs_grid', ),
-                    array( 'name' => esc_html__('Creative Grid','olins'), 'value' => 'creative_grid', ),
-                    array( 'name' => esc_html__('Brigitte Slider','olins'), 'value' => 'brigitte_slider', ),
+                    array( 'name' => esc_html__('1 Star','gardener'), 'value' => '1', ),
+                    array( 'name' => esc_html__('2 Stars','gardener'), 'value' => '2', ),
+                    array( 'name' => esc_html__('3 Stars','gardener'), 'value' => '3', ),
+                    array( 'name' => esc_html__('4 Stars','gardener'), 'value' => '4', ),
+                    array( 'name' => esc_html__('5 Stars','gardener'), 'value' => '5', ),
                 ),
             ),
+
+        )
+    );
+
+
+
+    $meta_boxes[] = array(
+        'id'         => 'projects_metabox',
+        'title'      => esc_html__('Projects Options','gardener'),
+        'pages'      => array( 'projects' ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_names' => true, // Show field names on the left
+        'fields' => array(
+
+
+
+
+            array(
+                'name' => esc_html__('Project Subtitle','gardener'),
+                'desc' => esc_html__('Type here the subtitle','gardener'),
+                'id'   => $prefix . 'project_subtitle',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Project Company','gardener'),
+                'desc' => esc_html__('Type here the company','gardener'),
+                'id'   => $prefix . 'project_company',
+                'std'  => '',
+                'type'    => 'text',
+            ),
+            array(
+                'name' => esc_html__('Project Date','gardener'),
+                'desc' => esc_html__('Type here the date','gardener'),
+                'id'   => $prefix . 'project_date',
+                'std'  => '',
+                'type'    => 'text_date',
+            ),
+
         )
     );
 

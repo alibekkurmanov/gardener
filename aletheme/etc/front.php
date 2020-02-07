@@ -5,46 +5,19 @@
 function ale_enqueue_styles() {
 
 	//Pre loader Lib
-	wp_register_style( 'aletheme-preloader', ALETHEME_THEME_URL . '/css/libs/preloader.css', array(), ALETHEME_THEME_VERSION, 'all');
+	//wp_register_style( 'aletheme-preloader', ALETHEME_THEME_URL . '/css/libs/preloader.css', array(), ALETHEME_THEME_VERSION, 'all');
 
 	//Add general css files
-	wp_register_style( 'aletheme-general-css', ALETHEME_THEME_URL . '/css/general.min.css', array(), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-olins-shortcodes-css', ALETHEME_THEME_URL . '/css/olins_shortcodes.min.css', array(), ALETHEME_THEME_VERSION, 'all');
+	wp_register_style( 'aletheme-general-css', ALETHEME_THEME_URL . '/css/general.css', array(), ALETHEME_THEME_VERSION, 'all');
+	wp_register_style( 'aletheme-olins-shortcodes-css', ALETHEME_THEME_URL . '/css/shortcodes.css', array(), ALETHEME_THEME_VERSION, 'all');
 
 	//Register libs
 	wp_register_style( 'font-awesome', ALETHEME_THEME_URL . '/css/font-awesome.min.css', array(), ALETHEME_THEME_VERSION, 'all');
 
-	//Register variants Custom Styles
-	//wp_register_style( 'aletheme_ikea_css', ALETHEME_THEME_URL . '/css/variants/ikea.css', array('aletheme_general_css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-blackwhite-css', ALETHEME_THEME_URL . '/css/variants/blackwhite.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-zoo-css', ALETHEME_THEME_URL . '/css/variants/zoo.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-bakery-css', ALETHEME_THEME_URL . '/css/variants/bakery.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-photography-css', ALETHEME_THEME_URL . '/css/variants/photography.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-luxuryshoes-css', ALETHEME_THEME_URL . '/css/variants/luxuryshoes.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-camping-css', ALETHEME_THEME_URL . '/css/variants/camping.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-travelphoto-css', ALETHEME_THEME_URL . '/css/variants/travelphoto.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-viaje-css', ALETHEME_THEME_URL . '/css/variants/viaje.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-wedding-css', ALETHEME_THEME_URL . '/css/variants/wedding.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-furniture-css', ALETHEME_THEME_URL . '/css/variants/furniture.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-magazine-css', ALETHEME_THEME_URL . '/css/variants/magazine.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-creative-css', ALETHEME_THEME_URL . '/css/variants/creative.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-brigitte-css', ALETHEME_THEME_URL . '/css/variants/brigitte.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-corporate-css', ALETHEME_THEME_URL . '/css/variants/corporate.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-cv-css', ALETHEME_THEME_URL . '/css/variants/cv.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-fashion-css', ALETHEME_THEME_URL . '/css/variants/fashion.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-pastel-css', ALETHEME_THEME_URL . '/css/variants/pastel.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-stephanie-css', ALETHEME_THEME_URL . '/css/variants/stephanie.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-cameron-css', ALETHEME_THEME_URL . '/css/variants/cameron.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-pixel-css', ALETHEME_THEME_URL . '/css/variants/pixel.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-jade-css', ALETHEME_THEME_URL . '/css/variants/jade.min.css', array('aletheme-general-css'), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-animate', ALETHEME_THEME_URL . '/css/libs/animate.css', array(), ALETHEME_THEME_VERSION, 'all');
-	wp_register_style( 'aletheme-multiscroll', ALETHEME_THEME_URL . '/css/libs/jquery.multiscroll.min.css', array(), ALETHEME_THEME_VERSION, 'all');
-
-
 	//Load Preloader if it is enabled in Options
-	if(ale_get_option('preloder') == 'enable') {
+	/*if(ale_get_option('preloder') == 'enable') {
 		wp_enqueue_style('aletheme-preloader');
-	}
+	}*/
 
 	//Load general css
 	wp_enqueue_style('aletheme-general-css');
@@ -52,78 +25,10 @@ function ale_enqueue_styles() {
 
 	//Load font awesome
 	wp_enqueue_style('font-awesome');
-	wp_enqueue_style('aletheme-animate');
+	//wp_enqueue_style('aletheme-animate');
 
 	//Load Selected Variant Style
 	$variant_name = ale_get_option('design_variant');
-
-	if($variant_name){
-		switch($variant_name){
-			case 'zoo' :
-				wp_enqueue_style('aletheme-zoo-css');
-				break;
-			case 'blackwhite' :
-				wp_enqueue_style('aletheme-blackwhite-css');
-				break;
-			case 'bakery' :
-				wp_enqueue_style('aletheme-bakery-css');
-				break;
-			case 'photography' :
-				wp_enqueue_style('aletheme-photography-css');
-				break;
-			case 'luxuryshoes' :
-				wp_enqueue_style('aletheme-luxuryshoes-css');
-				break;
-			case 'camping' :
-				wp_enqueue_style('aletheme-camping-css');
-				break;
-			case 'travelphoto' :
-				wp_enqueue_style('aletheme-travelphoto-css');
-				break;
-			case 'viaje' :
-				wp_enqueue_style('aletheme-viaje-css');
-				break;
-			case 'wedding' :
-				wp_enqueue_style('aletheme-wedding-css');
-				break;
-			case 'furniture' :
-				wp_enqueue_style('aletheme-furniture-css');
-				break;
-			case 'magazine' :
-				wp_enqueue_style('aletheme-magazine-css');
-				break;
-			case 'creative' :
-				wp_enqueue_style('aletheme-creative-css');
-				break;
-			case 'brigitte' :
-				wp_enqueue_style('aletheme-brigitte-css');
-				break;
-			case 'corporate' :
-				wp_enqueue_style('aletheme-corporate-css');
-				break;
-			case 'cv' :
-				wp_enqueue_style('aletheme-cv-css');
-				break;
-			case 'fashion' :
-				wp_enqueue_style('aletheme-fashion-css');
-				break;
-			case 'pastel' :
-				wp_enqueue_style('aletheme-pastel-css');
-				break;
-            case 'stephanie' :
-				wp_enqueue_style('aletheme-stephanie-css');
-				break;
-            case 'cameron' :
-				wp_enqueue_style('aletheme-cameron-css');
-				break;
-            case 'pixel' :
-				wp_enqueue_style('aletheme-pixel-css');
-				break;
-            case 'jade' :
-				wp_enqueue_style('aletheme-jade-css');
-				break;
-		}
-	}
 
 }
 add_action( 'wp_enqueue_scripts', 'ale_enqueue_styles' );
@@ -140,64 +45,37 @@ function ale_enqueue_scripts() {
 
     //Libs Register
     //wp_register_script( 'masonry', ALETHEME_THEME_URL . '/js/libs/jquery.masonry.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    wp_register_script( 'ale-slider', ALETHEME_THEME_URL . '/js/libs/jquery.flexslider-min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    wp_register_script( 'hoverdir', ALETHEME_THEME_URL . '/js/libs/jquery.hoverdir.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    wp_register_script( 'ale-modernizr-hoverdir', ALETHEME_THEME_URL . '/js/libs/modernizr.hoverdir.js', array( 'jquery' ), ALETHEME_THEME_VERSION, false );
-    wp_register_script( 'ale-modernizr-overlay-nav', ALETHEME_THEME_URL . '/js/libs/modernizr.overlay_nav.js', array( 'jquery' ), ALETHEME_THEME_VERSION, false );
-    wp_register_script( 'ale-appear', ALETHEME_THEME_URL . '/js/libs/jquery.appear.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    wp_register_script( 'ale-counter', ALETHEME_THEME_URL . '/js/libs/jquery.counter.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    wp_register_script( 'classie', ALETHEME_THEME_URL . '/js/libs/classie.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    wp_register_script( 'ale-overlay-nav', ALETHEME_THEME_URL . '/js/libs/overlay_nav.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    wp_register_script( 'ale-overlay-nav-move', ALETHEME_THEME_URL . '/js/libs/overlay_nav_move.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    wp_register_script( 'ale-overlay-nav-center', ALETHEME_THEME_URL . '/js/libs/overlay_nav_center.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    wp_register_script( 'ale-woo-accordion', ALETHEME_THEME_URL . '/js/libs/woocommerce.accordion.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+    //wp_register_script( 'ale-slider', ALETHEME_THEME_URL . '/js/libs/jquery.flexslider-min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+    //wp_register_script( 'hoverdir', ALETHEME_THEME_URL . '/js/libs/jquery.hoverdir.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+    //wp_register_script( 'ale-modernizr-hoverdir', ALETHEME_THEME_URL . '/js/libs/modernizr.hoverdir.js', array( 'jquery' ), ALETHEME_THEME_VERSION, false );
+    //wp_register_script( 'ale-modernizr-overlay-nav', ALETHEME_THEME_URL . '/js/libs/modernizr.overlay_nav.js', array( 'jquery' ), ALETHEME_THEME_VERSION, false );
+    //wp_register_script( 'ale-appear', ALETHEME_THEME_URL . '/js/libs/jquery.appear.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+    //wp_register_script( 'ale-counter', ALETHEME_THEME_URL . '/js/libs/jquery.counter.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+    //wp_register_script( 'classie', ALETHEME_THEME_URL . '/js/libs/classie.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+    //wp_register_script( 'ale-overlay-nav', ALETHEME_THEME_URL . '/js/libs/overlay_nav.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+    //wp_register_script( 'ale-overlay-nav-move', ALETHEME_THEME_URL . '/js/libs/overlay_nav_move.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+    //wp_register_script( 'ale-overlay-nav-center', ALETHEME_THEME_URL . '/js/libs/overlay_nav_center.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+    //wp_register_script( 'ale-woo-accordion', ALETHEME_THEME_URL . '/js/libs/woocommerce.accordion.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
     wp_register_script( 'lightbox', ALETHEME_THEME_URL . '/js/libs/lightbox.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    wp_register_script( 'venobox', ALETHEME_THEME_URL . '/js/libs/venobox.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    wp_register_script( 'tabslet', ALETHEME_THEME_URL . '/js/libs/jquery.tabslet.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+    //wp_register_script( 'venobox', ALETHEME_THEME_URL . '/js/libs/venobox.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+    //wp_register_script( 'tabslet', ALETHEME_THEME_URL . '/js/libs/jquery.tabslet.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
     wp_register_script( 'slick', ALETHEME_THEME_URL . '/js/libs/slick.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
     //wp_register_script( 'imagesloaded', ALETHEME_THEME_URL . '/js/libs/imagesloaded.pkgd.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    wp_register_script( 'easings', ALETHEME_THEME_URL . '/js/libs/jquery.easings.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+    //wp_register_script( 'easings', ALETHEME_THEME_URL . '/js/libs/jquery.easings.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
     wp_register_script( 'ale-multiscroll', ALETHEME_THEME_URL . '/js/libs/jquery.multiscroll.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
 
 	//Custom JS Code
 	wp_register_script( 'ale-scripts', ALETHEME_THEME_URL . '/js/scripts.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-
 
 	wp_enqueue_script( 'jquery-form' );
 	wp_enqueue_script( 'html5-shim' );
 	wp_script_add_data( 'html5-shim', 'conditional', 'lt IE 9' );
 
 	//Load Libs
-	wp_enqueue_script( 'ale-slider' );
+	/*wp_enqueue_script( 'ale-slider' );
 	wp_enqueue_script( 'imagesloaded' );
 	wp_enqueue_script( 'masonry' );
-	wp_enqueue_script( 'ale-appear' );
-
-
-	//Load Scripts based on selected Design Variant
-	$variant_name = ale_get_option('design_variant');
-
-	if($variant_name){
-		switch($variant_name){
-			case 'camping' :
-			case 'pixel' :
-				wp_enqueue_script( 'ale-modernizr-overlay-nav' );
-				wp_enqueue_script( 'classie' );
-				wp_enqueue_script( 'ale-overlay-nav-move' );
-				wp_enqueue_script( 'ale-appear' );
-				break;
-			case 'photography' :
-				wp_enqueue_script( 'ale-modernizr-overlay-nav' );
-				wp_enqueue_script( 'classie' );
-				wp_enqueue_script( 'ale-overlay-nav' );
-				break;
-			case 'wedding' :
-				wp_enqueue_script( 'ale-modernizr-overlay-nav' );
-				wp_enqueue_script( 'classie' );
-				wp_enqueue_script( 'ale-overlay-nav-center' );
-				break;
-		}
-	}
+	wp_enqueue_script( 'ale-appear' );*/
 
 	wp_enqueue_script( 'ale-scripts' );
 
