@@ -65,30 +65,6 @@ $ale_custom_blog_infolinefamily = '';
         if($ale_background['background-size']){ echo "background-size:".$ale_background['background-size'].";"; }
         ?>
     }
-    .wrapper {
-        <?php
-         if($wrapper_width !== 'custom' and $wrapper_width !== '100'){
-            echo "max-width:".esc_attr($wrapper_width)."px;";
-         } elseif($wrapper_width == 'custom') {
-            echo "max-width:".esc_attr(ale_get_option('custom_wrapper')).";";
-         } elseif($wrapper_width == '100'){
-            echo "max-width:100%;";
-         }
-         ?>
-    }
-    .content_wrapper,.wedding_full_post p {
-        <?php if(ale_get_option('inner_wrapper')!=''){
-            echo "max-width:".esc_attr(ale_get_option('inner_wrapper')).";";
-        } else {
-            if($wrapper_width !== 'custom' and $wrapper_width !== '100'){
-                echo "max-width:".esc_attr($wrapper_width)."px;";
-             } elseif($wrapper_width == 'custom') {
-                echo "max-width:".esc_attr(ale_get_option('custom_wrapper')).";";
-             } elseif($wrapper_width == '100'){
-                echo "max-width:100%;";
-             }
-        } ?>
-    }
     h1 {
         <?php
         if($ale_h1['size']){ echo "font-size:".$ale_h1['size'].";"; };

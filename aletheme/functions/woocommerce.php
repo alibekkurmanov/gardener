@@ -950,7 +950,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
         echo "</style>";
     }
 
-    add_action( 'wp_head', 'ale_custom_woo_styles' );
+    //add_action( 'wp_head', 'ale_custom_woo_styles' );
 
     //Remove breadcrumb
 //    add_filter( 'woocommerce_get_breadcrumb', '__return_false' );

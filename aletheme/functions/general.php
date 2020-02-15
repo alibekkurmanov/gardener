@@ -1146,7 +1146,7 @@ function ale_get_breadcrumbs() {
     $show_on_home   = 0;
     $show_home_link = 1;
     $show_title     = 1;
-    $delimiter      = '<i class="fa fa-angle-double-right" aria-hidden="true"></i>';
+    $delimiter      = '<span class="delimiter"><i class="fa fa-angle-right" aria-hidden="true"></i></span>';
     $before         = '<span class="current">';
     $after          = '</span>';
 
@@ -1167,8 +1167,7 @@ function ale_get_breadcrumbs() {
         if(get_option( 'page_for_posts' )){
                 echo '<div class="breadcrumbs"><a href="' . esc_url($home_link) . '">' . esc_attr($text['home']) . '</a>'.ale_wp_kses($delimiter).' '.__('Blog','olins').'</div>';
         }
-    }
-    else {
+    } else {
 
         echo '<div class="breadcrumbs">';
         if ($show_home_link == 1) {

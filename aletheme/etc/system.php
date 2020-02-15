@@ -35,9 +35,9 @@ function ale_init_navigation() {
 	if (function_exists('register_nav_menus')) {
 		register_nav_menus(array(
 			'header_menu'	=> esc_html__('Header Menu', 'olins'),
-			'header_left_menu'	=> esc_html__('Header Left Menu', 'olins'),
+			/*'header_left_menu'	=> esc_html__('Header Left Menu', 'olins'),
             'header_right_menu'	=> esc_html__('Header Right Menu', 'olins'),
-            'footer_menu'	=> esc_html__('Footer Menu', 'olins'),
+            'footer_menu'	=> esc_html__('Footer Menu', 'olins'),*/ 
             'mobile_menu'	=> esc_html__('Mobile Menu', 'olins'),
 		));
 	}

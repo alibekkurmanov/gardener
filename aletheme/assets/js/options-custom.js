@@ -13,20 +13,20 @@ jQuery(document).ready(function($) {
 		var Othis = this; //cache a copy of the this variable for use inside nested function
 		var initialColor = $(Othis).next('input').attr('value');
 		$(this).ColorPicker({
-		color: initialColor,
-		onShow: function (colpkr) {
-		$(colpkr).fadeIn(500);
-		return false;
-		},
-		onHide: function (colpkr) {
-		$(colpkr).fadeOut(500);
-		return false;
-		},
-		onChange: function (hsb, hex, rgb) {
-		$(Othis).children('div').css('backgroundColor', '#' + hex);
-		$(Othis).next('input').attr('value','#' + hex);
-	}
-	});
+			color: initialColor,
+			onShow: function (colpkr) {
+				$(colpkr).fadeIn(500);
+				return false;
+			},
+			onHide: function (colpkr) {
+				$(colpkr).fadeOut(500);
+				return false;
+			},
+			onChange: function (hsb, hex, rgb) {
+				$(Othis).children('div').css('backgroundColor', '#' + hex);
+				$(Othis).next('input').attr('value','#' + hex);
+			}
+		});
 	}); //end color picker
 	
 	// Switches option sections
@@ -102,7 +102,7 @@ jQuery(document).ready(function($) {
 
 	//Hide Footer Options based on selection
 	//======================================
-	var ale_footer_style = $('#ale_footer_variant').val();
+	/*var ale_footer_style = $('#ale_footer_variant').val();
 
 	if(ale_footer_style == 'default'){
 		$('#section-ale_footer_callnumber').show();
@@ -123,7 +123,7 @@ jQuery(document).ready(function($) {
 			$('#section-ale_footer_callnumber').hide();
 			$('#section-ale_footer_email_address').hide();
 		}
-	});
+	});*/
 
 
 
