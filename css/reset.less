@@ -9,7 +9,7 @@ audio[controls], canvas, video {
   display: inline-block;
 }
 html {
-//  overflow-y: scroll;                       /* 1 */
+  //  overflow-y: scroll;                       /* 1 */
   -webkit-tap-highlight-color: rgba(0,0,0,0); /* 2 */
   -webkit-text-size-adjust: 100%;             /* 3 */
   -ms-text-size-adjust: 100%;
@@ -239,7 +239,7 @@ em     { font-style: italic; }
 img	   { border: 0; }
 .small { font-size: 10px; }
 
-hr { 
+hr {
   display: block;
   height: 0px;
   line-height: 0px;
@@ -259,20 +259,76 @@ hr {
 
 
   ul {
-    list-style: square;
-    li {
-      list-style: square;
+    list-style: none;
+    display: block;
+
+    > li {
+      list-style: none;
+      line-height: 34px;
+      text-indent: 0;
+
+      ul > li {
+        list-style: none;
+        text-indent: 0;
+        &::before {
+          content:"";
+          width: 16px;
+          height: 34px;
+          background: url(images/li.png) center center no-repeat;
+          display: block;
+          float: left;
+          margin-right: 15px;
+        }
+      }
+
+      &::before {
+        content:"";
+        width: 16px;
+        height: 34px;
+        background: url(images/li.png) center center no-repeat;
+        display: block;
+        float: left;
+        margin-right: 15px;
+      }
     }
   }
   ol {
-    list-style: decimal;
-    li {
-      list-style: decimal;
+    counter-reset: item;
+    display: block;
+
+    > li {
+      margin: 0;
+      padding: 0 0 0 2em;
+      text-indent: -2em;
+      list-style-type: none;
+      counter-increment: item;
+
+      &::before {
+        display: inline-block;
+        width: 10px;
+        padding-right: 15px;
+        font-weight: bold;
+        text-align: right;
+        content: counter(item) ".";
+        color:#2c813c;
+      }
+
+      ol > li {
+        &::before {
+          display: inline-block;
+          width: 10px;
+          padding-right: 15px;
+          font-weight: bold;
+          text-align: right;
+          content: counter(item) ".";
+          color:#2c813c;
+        }
+      }
     }
   }
   ul, ol {
-    margin: 0 0 1em 1.5em;
-    line-height: 1.5;
+    margin: 0 0 1em 2em;
+    line-height: 34px;
 
     ul, ol {
       margin-bottom: 0;
@@ -280,6 +336,14 @@ hr {
   }
 
   ol {
+
+    ul {
+      margin-left: 0;
+
+      ul {
+        margin-left: 2em;
+      }
+    }
     ol {
       list-style: upper-alpha;
       ol {
@@ -292,7 +356,7 @@ hr {
   }
 
   h1, h2, h3, h4, h5, h6 {
-    text-transform: none;
+    text-transform: uppercase;
     margin-bottom: 20px;
   }
 
@@ -301,7 +365,7 @@ hr {
     &:visited,
     &:hover,
     &:active{
-        text-decoration: none;
+      text-decoration: none;
     }
   }
 
@@ -410,36 +474,84 @@ hr {
   table {
     margin-bottom: 30px;
     border-collapse: collapse;
+    -webkit-box-shadow: 0px 10px 63px -12px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 10px 63px -12px rgba(0,0,0,0.48);
+    box-shadow: 0px 10px 63px -12px rgba(0,0,0,0.48);
+    .rounded(15px);
+    overflow: hidden;
+
+
+    thead {
+      background: #2c813c;
+      color:#FFF;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-color:#1e6b2d;
+
+      td,th {
+        border:none;
+        border-right:1px solid #1e6b2d;
+
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+
+    tbody {
+      tr{
+        border-top:1px solid #f2f2f2;
+        border-bottom:1px solid #f2f2f2;
+
+      }
+      tr:nth-child(odd){
+        background: #fff;
+        border-top:0;
+        border-bottom:0;
+      }
+
+      td {
+        border-right:1px solid #f2f2f2;
+
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
 
     a:hover {
       .opacity(0.6);
     }
 
     td,th {
-      padding: 5px 10px;
-      border:1px solid #f2f2f2;
+      padding: 25px 29px;
+      text-align: center;
+
     }
   }
   .tagsphar {
     margin-top: 30px;
+    clear: both;
   }
   .tagsphar a,.post_pages a {
-    font-weight: 900;
-    font-size: 12px;
-    border: 2px solid #000;
-    padding: 2px 10px;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 2px 5px;
     margin: 3px;
     display: inline-block;
-
     .transition(all 300ms ease-in-out);
 
     &:hover {
-      .opacity(1);
-      background-color: #000;
-      color:#FFF;
+      text-decoration: none!important;
       .transition(all 300ms ease-in-out);
     }
   }
+}
+
+.no-comments {
+  text-align: center;
+  padding: 10px;
 }
 
 /* Flexslider Default Styles
@@ -488,7 +600,7 @@ hr {
     }
     .text {
       p:last-child {
-          margin-bottom: 0;
+        margin-bottom: 0;
       }
     }
   }
@@ -753,4 +865,126 @@ html[xmlns] .slides {
 }
 * html .slides {
   height: 1%;
+}
+
+
+
+/* Slider */
+.slick-slider
+{
+  position: relative;
+
+  display: block;
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+  position: relative;
+
+  display: block;
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus
+{
+  outline: none;
+}
+.slick-list.dragging
+{
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+  position: relative;
+  top: 0;
+  left: 0;
+
+  display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+  display: table;
+
+  content: '';
+}
+.slick-track:after
+{
+  clear: both;
+}
+.slick-loading .slick-track
+{
+  visibility: hidden;
+}
+
+.slick-slide
+{
+  display: none;
+  float: left;
+
+  height: 100%;
+  min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+  float: right;
+}
+.slick-slide img
+{
+  display: block;
+}
+.slick-slide.slick-loading img
+{
+  display: none;
+}
+.slick-slide.dragging img
+{
+  pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+  display: block;
+}
+.slick-loading .slick-slide
+{
+  visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+  display: block;
+
+  height: auto;
+
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
 }
