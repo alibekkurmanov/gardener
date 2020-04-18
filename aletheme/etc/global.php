@@ -25,7 +25,7 @@ ale_global::$demo_list = array (
         'category' => array('all','creative','shop'),
         'date-create' => '2017-01-1',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/bw.jpg',
-        'required_plugins' => array('woocommerce','cpt-olins','js_composer')
+        'required_plugins' => array('woocommerce','cpt-gardener','js_composer')
     ),
     'zoo' => array(
         'text' => 'Olins Zoo',
@@ -34,7 +34,7 @@ ale_global::$demo_list = array (
         'category' => array('all','micro-niche'),
         'date-create' => '2017-01-2',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/zoo.jpg',
-        'required_plugins' => array('cpt-olins','js_composer','cpt-editor','mailchimp-for-wp','revslider')
+        'required_plugins' => array('cpt-gardener','js_composer','cpt-editor','mailchimp-for-wp','revslider')
     ),
     'bakery' => array(
         'text' => 'Olins Bakery',
@@ -43,7 +43,7 @@ ale_global::$demo_list = array (
         'category' => array('all','micro-niche','shop'),
         'date-create' => '2017-01-3',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/bakery.jpg',
-        'required_plugins' => array('woocommerce','cpt-olins','js_composer','mailchimp-for-wp')
+        'required_plugins' => array('woocommerce','cpt-gardener','js_composer','mailchimp-for-wp')
     ),
     'photography' => array(
         'text' => 'Olins Photography',
@@ -52,7 +52,7 @@ ale_global::$demo_list = array (
         'category' => array('all','photography'),
         'date-create' => '2017-01-4',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/photography.jpg',
-        'required_plugins' => array('cpt-olins','js_composer')
+        'required_plugins' => array('cpt-gardener','js_composer')
     ),
     'luxuryshoes' => array(
         'text' => 'Olins Luxury Shoes',
@@ -61,7 +61,7 @@ ale_global::$demo_list = array (
         'category' => array('all','micro-niche','shop'),
         'date-create' => '2017-01-5',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/luxuryshoes.jpg',
-        'required_plugins' => array('cpt-olins','js_composer','woocommerce')
+        'required_plugins' => array('cpt-gardener','js_composer','woocommerce')
     ),
     'camping' => array(
         'text' => 'Olins Camping',
@@ -70,7 +70,7 @@ ale_global::$demo_list = array (
         'category' => array('all','micro-niche'),
         'date-create' => '2017-01-6',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/camping.jpg',
-        'required_plugins' => array('cpt-olins','js_composer')
+        'required_plugins' => array('cpt-gardener','js_composer')
     ),
     'travelphoto' => array(
         'text' => 'Olins Travel Photography',
@@ -79,7 +79,7 @@ ale_global::$demo_list = array (
         'category' => array('all','photography'),
         'date-create' => '2017-01-7',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/travelphoto.jpg',
-        'required_plugins' => array('cpt-olins','js_composer')
+        'required_plugins' => array('cpt-gardener','js_composer')
     ),
     'viaje' => array(
         'text' => 'Olins Viaje',
@@ -88,7 +88,7 @@ ale_global::$demo_list = array (
         'category' => array('all','micro-niche'),
         'date-create' => '2017-01-8',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/viaje.jpg',
-        'required_plugins' => array('cpt-olins','js_composer','revslider')
+        'required_plugins' => array('cpt-gardener','js_composer','revslider')
     ),
     'wedding' => array(
         'text' => 'Olins Wedding',
@@ -97,7 +97,7 @@ ale_global::$demo_list = array (
         'category' => array('all','photography','micro-niche'),
         'date-create' => '2017-01-9',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/wedding.jpg',
-        'required_plugins' => array('cpt-olins','js_composer','revslider')
+        'required_plugins' => array('cpt-gardener','js_composer','revslider')
     ),
     'furniture' => array(
         'text' => 'Olins Furniture',
@@ -106,7 +106,7 @@ ale_global::$demo_list = array (
         'category' => array('all','micro-niche'),
         'date-create' => '2017-01-10',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/furniture.jpg',
-        'required_plugins' => array('cpt-olins','js_composer','cpt-editor','revslider')
+        'required_plugins' => array('cpt-gardener','js_composer','cpt-editor','revslider')
     ),
     'magazine' => array(
         'text' => 'Olins Magazine',
@@ -115,7 +115,7 @@ ale_global::$demo_list = array (
         'category' => array('all','creative'),
         'date-create' => '2017-01-11',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/magazine.jpg',
-        'required_plugins' => array('cpt-olins','js_composer','mailchimp-for-wp')
+        'required_plugins' => array('cpt-gardener','js_composer','mailchimp-for-wp')
     ),
     'creative' => array(
         'text' => 'Olins Creative',
@@ -124,7 +124,7 @@ ale_global::$demo_list = array (
         'category' => array('all','creative'),
         'date-create' => '2017-03-29',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/creative.jpg',
-        'required_plugins' => array('cpt-olins','js_composer','cpt-editor','revslider')
+        'required_plugins' => array('cpt-gardener','js_composer','cpt-editor','revslider')
     ),
     'brigitte' => array(
         'text' => 'Olins Brigitte',
@@ -133,7 +133,7 @@ ale_global::$demo_list = array (
         'category' => array('all','photography'),
         'date-create' => '2017-04-01',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/brigitte.jpg',
-        'required_plugins' => array('cpt-olins','js_composer')
+        'required_plugins' => array('cpt-gardener','js_composer')
     ),
     'corporate' => array(
         'text' => 'Olins Corporate',
@@ -142,7 +142,7 @@ ale_global::$demo_list = array (
         'category' => array('all','business','one-page'),
         'date-create' => '2017-04-03',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/corporate.jpg',
-        'required_plugins' => array('cpt-olins','js_composer','revslider','page-scroll-to-id')
+        'required_plugins' => array('cpt-gardener','js_composer','revslider','page-scroll-to-id')
     ),
     'cv' => array(
         'text' => 'Olins CV',
@@ -151,7 +151,7 @@ ale_global::$demo_list = array (
         'category' => array('all','business','creative','one-page'),
         'date-create' => '2017-04-06',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/cv.jpg',
-        'required_plugins' => array('cpt-olins','js_composer','revslider','page-scroll-to-id')
+        'required_plugins' => array('cpt-gardener','js_composer','revslider','page-scroll-to-id')
     ),
     'fashion' => array(
         'text' => 'Olins Fashion',
@@ -160,7 +160,7 @@ ale_global::$demo_list = array (
         'category' => array('all','shop'),
         'date-create' => '2017-04-10',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/fashion.jpg',
-        'required_plugins' => array('cpt-olins','js_composer','revslider','woocommerce')
+        'required_plugins' => array('cpt-gardener','js_composer','revslider','woocommerce')
     ),
     'pastel' => array(
         'text' => 'Olins Pastel',
@@ -169,7 +169,7 @@ ale_global::$demo_list = array (
         'category' => array('all','creative','photography'),
         'date-create' => '2017-04-13',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/pastel.jpg',
-        'required_plugins' => array('cpt-olins','js_composer')
+        'required_plugins' => array('cpt-gardener','js_composer')
     ),
     'stephanie' => array(
         'text' => 'Olins Stephanie',
@@ -178,7 +178,7 @@ ale_global::$demo_list = array (
         'category' => array('all','photography'),
         'date-create' => '2017-04-18',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/stephanie.jpg',
-        'required_plugins' => array('cpt-olins','js_composer')
+        'required_plugins' => array('cpt-gardener','js_composer')
     ),
     'cameron' => array(
         'text' => 'Olins Cameron',
@@ -187,7 +187,7 @@ ale_global::$demo_list = array (
         'category' => array('all','photography','creative'),
         'date-create' => '2017-04-24',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/cameron.jpg',
-        'required_plugins' => array('cpt-olins','js_composer')
+        'required_plugins' => array('cpt-gardener','js_composer')
     ),
     'pixel' => array(
         'text' => 'Olins Pixel',
@@ -196,7 +196,7 @@ ale_global::$demo_list = array (
         'category' => array('all','creative'),
         'date-create' => '2017-04-25',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/pixel.jpg',
-        'required_plugins' => array('cpt-olins','js_composer')
+        'required_plugins' => array('cpt-gardener','js_composer')
     ),
     'jade' => array(
         'text' => 'Olins Jade',
@@ -205,7 +205,7 @@ ale_global::$demo_list = array (
         'category' => array('all','creative','photography'),
         'date-create' => '2017-05-04',
         'demo_preview' => ALETHEME_DEMOS_HOST .'olins_base/preview_screen/jade.jpg',
-        'required_plugins' => array('cpt-olins','js_composer')
+        'required_plugins' => array('cpt-gardener','js_composer')
     ),
 
 );
@@ -249,10 +249,10 @@ ale_global::$plugins_list = array(
         'location'=>'wp_repo',
         'slug'=>'mailchimp-for-wp'
     ),
-    'cpt-olins' => array(
+    'cpt-gardener' => array(
         'name'=>'Olins Core',
         'location'=>'bundled',
-        'slug'=>'cpt-olins',
-        'source' => ALETHEME_THEME_URL . '/plugins/cpt-olins.zip'
+        'slug'=>'cpt-gardener',
+        'source' => ALETHEME_THEME_URL . '/plugins/cpt-gardener.zip'
     ),
 );

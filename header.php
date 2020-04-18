@@ -35,90 +35,22 @@
             </div>
         </div>
     </div>
-    <?php if(is_page_template('template-homepage.php')){ ?>
-        <div class="slider_home_container">
-            <div class="main_top_slider">
-                <ul class="slides">
-                    <?php
-                    $args = array(
-                        'post_type' => 'post',
-                        'meta_key'  => 'ale_post_to_slider',
-                        'meta_value' => 'on',
-                        'post__not_in' => get_option("sticky_posts"),
-                        'posts_per_page' => -1
-                    );
 
-                    $slides = new WP_Query($args);
+    <div class="main_navigation font_two <?php if(is_page_template('template-homepage.php')) { echo 'front_page'; } ?>">
+        <?php if ( has_nav_menu( 'header_menu' ) ) { ?>
+            <nav class="navigation header_nav wrapper">
+                <?php wp_nav_menu(array(
+                    'theme_location'=> 'header_menu',
+                    'menu'			=> 'Header Menu',
+                    'menu_class'	=> 'menu menu-header ',
+                    'walker'		=> new Aletheme_Nav_Walker(),
+                    'container'		=> '',
+                )); ?>
+            </nav>
+        <?php } ?>
+    </div>
 
-                    if ($slides->have_posts()) : while ($slides->have_posts()) : $slides->the_post();
-
-                        $ale_slide_title = get_the_title();
-                        $ale_main_image = ale_get_meta('main_image');
-                        $ale_bg_image = ale_get_meta('background_image');
-                        $ale_subtitle = ale_get_meta('post_sub_title')
-
-                        ?>
-
-                        <li class="slider_item" <?php if($ale_bg_image) {echo 'style="background:url('.esc_url($ale_bg_image).') no-repeat center center;"';} ?>>
-                            <div class="image_container">
-                                <?php if($ale_main_image){
-                                    echo '<img src="'.esc_url($ale_main_image).'" alt="" />';
-                                } ?>
-                                <div class="content_slide_data">
-                                    <div class="slide_data">
-                                        <h2 class="slide_title"><a href="<?php esc_url(the_permalink()); ?>"><?php echo esc_attr($ale_slide_title); ?></a></h2>
-                                        <div class="sub_title_slide cf">
-										<span class="slide_icon">
-											<a href="<?php esc_url(the_permalink()); ?>"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-										</span>
-                                            <div class="slide_subtitle">
-                                                <p><a href="<?php esc_url(the_permalink()); ?>"><?php echo esc_attr($ale_subtitle); ?></a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </li>
-
-                    <?php endwhile;  endif; wp_reset_query(); ?>
-
-
-                </ul>
-            </div>
-            <?php if ( has_nav_menu( 'header_menu' ) ) { ?>
-                <div class="slider_menu_navigation font_two">
-                    <nav class="navigation header_nav wrapper">
-                        <?php
-                        wp_nav_menu(array(
-                            'theme_location'=> 'header_menu',
-                            'menu'			=> 'Header Menu',
-                            'menu_class'	=> 'menu menu-header ',
-                            'walker'		=> new Aletheme_Nav_Walker(),
-                            'container'		=> '',
-                        )); ?>
-                    </nav>
-                </div>
-
-                <?php
-            } ?>
-        </div>
-    <?php } else { ?>
-        <div class="main_navigation font_two">
-            <?php if ( has_nav_menu( 'header_menu' ) ) { ?>
-                <nav class="navigation header_nav wrapper">
-                    <?php
-                    wp_nav_menu(array(
-                        'theme_location'=> 'header_menu',
-                        'menu'			=> 'Header Menu',
-                        'menu_class'	=> 'menu menu-header ',
-                        'walker'		=> new Aletheme_Nav_Walker(),
-                        'container'		=> '',
-                    )); ?>
-                </nav>
-                <?php
-            } ?>
-        </div>
+    <?php if(!is_page_template('template-homepage.php')) { ?>
         <section class="breadcrumbs_section">
             <div class="breadcrumbs_line">
                 <div class="left_line_bread"></div>

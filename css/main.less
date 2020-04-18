@@ -16,7 +16,9 @@ body{
 }
 
 header.header_top {
-  background: #2c813c url(images/mask.png) 0 0;
+  //background: url(images/mask.png) 0 0;
+  position: relative;
+  z-index: 3;
 
   .main-line {
     background: @main_color url(images/circle.png) no-repeat top center;
@@ -94,8 +96,11 @@ header.header_top {
     -webkit-box-shadow: 0 10px 15px -5px rgba(0,0,0,0.35);
     -moz-box-shadow: 0 10px 15px -5px rgba(0,0,0,0.35);
     box-shadow: 0 10px 15px -5px rgba(0,0,0,0.35);
-    z-index: 9999;
-    margin-bottom: 23px;
+
+    &.front_page {
+      background-color: rgba(149, 194, 99, 0.15);
+      margin-bottom: -60px;
+    }
 
     .header_nav {
 
@@ -804,7 +809,9 @@ footer.theme_footer {
 
 .slider_home_container {
   position: relative;
-  padding-bottom: 50px;
+  width: 100%;
+  height: 850px;
+  margin-bottom: 22px;
 
   .slider_menu_navigation {
     position: absolute;
@@ -862,8 +869,9 @@ footer.theme_footer {
     -webkit-box-shadow: 0px 19px 54px -15px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 19px 54px -15px rgba(0,0,0,0.5);
     box-shadow: 0px 19px 54px -15px rgba(0,0,0,0.5);
-
     position: relative;
+    width: 100%;
+    height: 100%;
 
     .flex-control-nav {
       position: absolute;
@@ -871,7 +879,7 @@ footer.theme_footer {
       width: 100%;
       bottom: 0;
       margin-bottom: 60px;
-      z-index: 9999;
+      z-index: 3;
       text-align: center;
       width: 100%;
 
@@ -883,7 +891,7 @@ footer.theme_footer {
           display: block;
           width: 10px;
           height: 10px;
-          background: #628838;
+          background: rgb(70, 99, 39);
           .rounded(100%);
           margin: 0 10px;
 
@@ -900,10 +908,29 @@ footer.theme_footer {
   ul.slides {
 
     li.slider_item {
-      position: relative;
-      background-size: cover;
       padding-top: 120px;
       padding-bottom: 135px;
+
+      .back_slider_img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+
+        img {
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          /*top: -9999px;
+          bottom: -9999px;
+          left: -9999px;
+          right: -9999px;*/
+          margin: auto;
+        }
+      }
 
       &::before {
         content:"";
@@ -912,7 +939,8 @@ footer.theme_footer {
         left:0;
         width: 100%;
         height: 100%;
-        background: rgba(130,183,72,0.9);
+        background: rgba(130,183,72,0.8);
+        z-index: 1;
       }
 
       .image_container {
@@ -929,6 +957,7 @@ footer.theme_footer {
         -webkit-box-shadow: 14px 19px 54px -9px rgba(0,0,0,0.58);
         -moz-box-shadow: 14px 19px 54px -9px rgba(0,0,0,0.58);
         box-shadow: 14px 19px 54px -9px rgba(0,0,0,0.58);
+        z-index: 1;
 
         .content_slide_data {
           position: absolute;
@@ -998,9 +1027,8 @@ footer.theme_footer {
         }
 
         img {
-
-          max-width: 100%;
-          height: auto;
+          width: 1100px;
+          height: 490px;
         }
       }
     }
@@ -1010,7 +1038,7 @@ footer.theme_footer {
 
 .order_form {
   background: #2c813c url(images/mask.png) 0 0;
-  padding-top: 15px;
+  padding-top: 50px;
 
   .form_heading {
     margin-bottom: 65px;
@@ -1449,7 +1477,7 @@ footer.theme_footer {
     display: flex;
   }
   .service_right {
-    width: 25%;
+    width: 20%;
     background: #2c813c url(images/mask.png) 0 0;
   }
 
@@ -1470,8 +1498,7 @@ footer.theme_footer {
       width: 100%;
       height: 100%;
       background-size: cover;
-
-
+      filter: none;
     }
   }
 
@@ -1571,7 +1598,7 @@ footer.theme_footer {
 
   }
   .service_description {
-    width: 50%;
+    width: 55%;
     background: #2c813c url(images/mask.png) 0 0;
 
     .item_service {
@@ -3912,7 +3939,7 @@ body.admin-bar .vbox-close {
               width: 29px;
               height: 23px;
               display: block;
-              background: url(images/close_order.png) left center;
+              //background: url(images/close_order.png) left center;
               position: absolute;
               top:0;
               left:0;

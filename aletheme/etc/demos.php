@@ -786,6 +786,9 @@ class ale_demo_category extends ale_demo_base {
 
         // keep a list of installed category ids so we can delete them later if needed
         $ale_stacks_demo_terms_id = get_option('ale_demo_terms_id');
+        if(!is_array($ale_stacks_demo_terms_id)) {
+            $ale_stacks_demo_terms_id = array();
+        }
         $ale_stacks_demo_terms_id [] = array('id' => $new_term_id, 'taxonomy' => $params_array['taxonomy']);
 
         update_option('ale_demo_terms_id', $ale_stacks_demo_terms_id);

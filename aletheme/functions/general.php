@@ -1321,9 +1321,9 @@ function ale_register_required_plugins() {
             ),
 
             array(
-                'name'                  => 'Olins Core',
-                'slug'                  => 'cpt-olins',
-                'source'                => get_template_directory() . '/plugins/cpt-olins.zip',
+                'name'                  => 'Gardener Core',
+                'slug'                  => 'cpt-gardener',
+                'source'                => get_template_directory() . '/plugins/cpt-gardener.zip',
                 'required'              => true,
                 'version'               => '',
                 'force_activation'      => false,
@@ -1332,11 +1332,11 @@ function ale_register_required_plugins() {
             ),
 
 
-            array(
+            /*array(
                 'name'                  => 'WPBakery Visual Composer',
                 'slug'                  => 'js_composer',
                 'source'                => get_template_directory() . '/plugins/js_composer.zip',
-                'required'              => true,
+                'required'              => false,
                 'version'               => '5.0.1',
                 'force_activation'      => false,
                 'force_deactivation'    => false,
@@ -1352,7 +1352,7 @@ function ale_register_required_plugins() {
                 'force_activation'      => false,
                 'force_deactivation'    => false,
                 'external_url'          => '',
-            ),
+            ),*/
         );
 
         // Change this to your theme text domain, used for internationalising strings

@@ -1,95 +1,92 @@
 <?php get_header(); ?>
-    <?php get_template_part('partials/page_heading');
 
-    //Sidebar position based on theme options
-    $ale_sidebar_position = ale_get_option('blog_sidebar_position');
-    $sidebar_class = '';
-
-    if($ale_sidebar_position){
-        $sidebar_class = 'sidebar_position_'. $ale_sidebar_position;
-    }
-?>
-
-    <?php if(ale_get_option('blog_grid_layout') == 'cameron'){ ?>
-        <div class="blog_posts flex_container">
-            <div class="story ale_blog_archive cameron_layout content cf">
-
+<section class="site_container">
+    <div class="page_heading">
+        <h2 class="page_title"><?php esc_html_e('Our Blog','gardener'); ?></h2>
+    </div>
+    <div class="blog_cats">
+        <div class="wrapper">
+            <ul class="categories font_two">
+                <li class="current_item"><?php echo esc_html_e('All','gardener'); ?></li>
                 <?php
+                $categories = get_categories( array(
+                    'orderby' => 'name',
+                    'order'   => 'ASC'
+                ) );
 
-                if (have_posts()) : while (have_posts()) : the_post(); ?>
-                    <?php get_template_part('partials/blog/cameron_preview' ); ?>
-                <?php endwhile; else: ?>
-                    <?php get_template_part('partials/notfound')?>
-                <?php endif; ?>
-
-                <?php get_template_part('partials/pagination'); ?>
-            </div>
+                foreach( $categories as $category ) {
+                    $category_link = sprintf(
+                        '<li><a href="%1$s" alt="%2$s">%3$s</a></li>',
+                        esc_url( get_category_link( $category->term_id ) ),
+                        esc_attr( $category->name),
+                        esc_html( $category->name )
+                    );
+                    echo ale_wp_kses($category_link);
+                }
+                ?>
+            </ul>
         </div>
-
-    <?php } else { ?>
-
-    <div class="content_wrapper blog_posts flex_container <?php  echo esc_attr($sidebar_class); ?> cf">
-
-        <?php if($ale_sidebar_position  !== 'no'){
-            get_sidebar();
-        } ?>
-
-        <!-- Content -->
-        <div class="story ale_blog_archive content cf">
-            <?php
-            //Columns Settings
-            $ale_blog_columns = ale_get_option('default_blog_columns');
-            $ale_columns_class = '';
-            if($ale_blog_columns){
-                $ale_columns_class = 'ale_blog_columns_'.$ale_blog_columns;
-            }
-            //Text Align Settings
-            $ale_blog_text_align = ale_get_option('default_blog_text_align');
-            $ale_text_align_class = '';
-            if($ale_blog_text_align){
-                $ale_text_align_class = 'ale_blog_text_align_'.$ale_blog_text_align;
-            }
-            //Grid type
-            $blog_grid_type = 'blog_grid grid';
-            if(ale_get_option('blog_grid_layout') == 'vintage'){
-                $blog_grid_type = 'blog_grid vintage-grid';
-            } else if(ale_get_option('blog_grid_layout') == 'furniture'){
-                $blog_grid_type = 'blog_grid furniture-grid';
-            } else if(ale_get_option('blog_grid_layout') == 'brigitte'){
-                $blog_grid_type = 'blog_grid brigitte-grid';
-            }
-
-            $ale_title_for_heading = '';
-            if(ale_get_option('page_heading_style') == 'parallax_three'){
-                if(ale_get_option('archiveblogtitle')){ $ale_title_for_heading = ale_get_option('archiveblogtitle'); };
-                echo '<h2 class="post_title blog_title">'.esc_attr($ale_title_for_heading).'</h2>';
-            }
-            ?>
-            <div class="<?php echo esc_attr($blog_grid_type)." ".esc_attr($ale_columns_class)." ".esc_attr($ale_text_align_class); ?>">
+    </div>
+    <!-- Content -->
+    <div class="story posts_list cf">
+        <div class="wrapper cf">
+            <div class="grid">
                 <div class="grid-sizer"></div>
                 <div class="gutter-sizer"></div>
-                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                    <?php
-                    if(ale_get_option('blog_grid_layout') == 'vintage'){
-                        get_template_part('partials/blog/vintage_preview' );
-                    } elseif(ale_get_option('blog_grid_layout') == 'furniture'){
-                        get_template_part('partials/blog/furniture_preview' );
-                    } elseif(ale_get_option('blog_grid_layout') == 'brigitte'){
-                        get_template_part('partials/blog/brigitte_preview' );
-                    } elseif(ale_get_option('blog_grid_layout') == 'pixel'){
-                        get_template_part('partials/blog/pixel_preview' );
-                    } elseif(ale_get_option('blog_grid_layout') == 'jade'){
-                        get_template_part('partials/blog/jade_preview' );
-                    } else {
-                        get_template_part('partials/postpreview' );
-                    }?>
+                <?php
+                $i = 0;
+                if (have_posts()) : while (have_posts()) : the_post(); $i++;
+
+                    if($i == 1){ ?>
+
+                        <article <?php post_class('grid-item topimg grid-item--width2'); ?> id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
+                            <figure>
+                                <?php echo get_the_post_thumbnail($post->ID,'post-topimg'); ?>
+                                <figcaption>
+                                    <div class="post_data">
+                                        <h2 class="post_title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                                        <?php if(ale_get_meta('post_sub_title')) {?> <span class="subtitle"><?php echo esc_attr(ale_get_meta('post_sub_title')); ?></span><?php } ?>
+                                        <div class="post_info">
+                                            <span class="read_more_button font_two"><a href="<?php the_permalink(); ?>"><span class="icon"><i class="fa fa-arrow-right" aria-hidden="true"></i></span> <?php esc_html_e('Read More','gardener'); ?></a></span>
+                                            <span class="comments_count"><i class="fa fa-commenting-o" aria-hidden="true"></i> <?php comments_number(); ?></span>
+                                            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i> <?php the_date(); ?></span>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+
+                        </article>
+
+                    <?php } else { ?>
+
+                        <article <?php post_class('grid-item blog-item'); ?> id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
+                            <?php if(get_the_post_thumbnail($post->ID,'post-blogimg')){ ?>
+                                <div class="post_thumbnail"><?php echo get_the_post_thumbnail($post->ID,'post-blogimg'); ?></div>
+                            <?php } ?>
+                            <div class="post_data">
+                                <span class="post_category font_two"><?php the_category(' '); ?></span>
+                                <h2 class="post_title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                                <?php if(ale_get_meta('post_sub_title')) { ?>
+                                    <span class="post_subtitle"><?php echo esc_attr(ale_get_meta('post_sub_title')); ?></span>
+                                <?php } ?>
+                                <div class="post_info">
+                                    <span class="read_more_button font_two"><a href="<?php the_permalink(); ?>"><span class="icon"><i class="fa fa-arrow-right" aria-hidden="true"></i></span> <?php esc_html_e('Read More','gardener'); ?></a></span>
+                                    <span class="comments_count"><i class="fa fa-commenting-o" aria-hidden="true"></i> <?php comments_number(); ?></span>
+                                    <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i> <?php echo get_the_date(); ?></span>
+                                </div>
+                            </div>
+                        </article>
+
+                    <?php } ?>
+
                 <?php endwhile; else: ?>
                     <?php get_template_part('partials/notfound')?>
                 <?php endif; ?>
             </div>
-            <?php get_template_part('partials/pagination'); ?>
         </div>
 
+        <?php get_template_part('partials/pagination'); ?>
     </div>
-    <?php } ?>
+</section>
+
 <?php get_footer(); ?>

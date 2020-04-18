@@ -289,8 +289,6 @@ function ale_get_options() {
         "std" => "",
         "type" => "text");
 
-
-
     return $options;
 }
 

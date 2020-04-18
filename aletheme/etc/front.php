@@ -44,44 +44,26 @@ function ale_enqueue_scripts() {
 	wp_register_script( 'html5-shim', 'http://html5shim.googlecode.com/svn/trunk/html5.js', array( 'jquery' ), ALETHEME_THEME_VERSION, false );
 
     //Libs Register
-    //wp_register_script( 'masonry', ALETHEME_THEME_URL . '/js/libs/jquery.masonry.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    //wp_register_script( 'ale-slider', ALETHEME_THEME_URL . '/js/libs/jquery.flexslider-min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    //wp_register_script( 'hoverdir', ALETHEME_THEME_URL . '/js/libs/jquery.hoverdir.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    //wp_register_script( 'ale-modernizr-hoverdir', ALETHEME_THEME_URL . '/js/libs/modernizr.hoverdir.js', array( 'jquery' ), ALETHEME_THEME_VERSION, false );
-    //wp_register_script( 'ale-modernizr-overlay-nav', ALETHEME_THEME_URL . '/js/libs/modernizr.overlay_nav.js', array( 'jquery' ), ALETHEME_THEME_VERSION, false );
-    //wp_register_script( 'ale-appear', ALETHEME_THEME_URL . '/js/libs/jquery.appear.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    //wp_register_script( 'ale-counter', ALETHEME_THEME_URL . '/js/libs/jquery.counter.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    //wp_register_script( 'classie', ALETHEME_THEME_URL . '/js/libs/classie.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    //wp_register_script( 'ale-overlay-nav', ALETHEME_THEME_URL . '/js/libs/overlay_nav.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    //wp_register_script( 'ale-overlay-nav-move', ALETHEME_THEME_URL . '/js/libs/overlay_nav_move.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    //wp_register_script( 'ale-overlay-nav-center', ALETHEME_THEME_URL . '/js/libs/overlay_nav_center.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    //wp_register_script( 'ale-woo-accordion', ALETHEME_THEME_URL . '/js/libs/woocommerce.accordion.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
     wp_register_script( 'lightbox', ALETHEME_THEME_URL . '/js/libs/lightbox.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    //wp_register_script( 'venobox', ALETHEME_THEME_URL . '/js/libs/venobox.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    //wp_register_script( 'tabslet', ALETHEME_THEME_URL . '/js/libs/jquery.tabslet.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
     wp_register_script( 'slick', ALETHEME_THEME_URL . '/js/libs/slick.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    //wp_register_script( 'imagesloaded', ALETHEME_THEME_URL . '/js/libs/imagesloaded.pkgd.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    //wp_register_script( 'easings', ALETHEME_THEME_URL . '/js/libs/jquery.easings.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
-    wp_register_script( 'ale-multiscroll', ALETHEME_THEME_URL . '/js/libs/jquery.multiscroll.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+    wp_register_script( 'flexslider', ALETHEME_THEME_URL . '/js/libs/jquery.flexslider-min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
 
 	//Custom JS Code
-	wp_register_script( 'ale-scripts', ALETHEME_THEME_URL . '/js/scripts.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+	wp_register_script( 'ale-scripts', ALETHEME_THEME_URL . '/js/scripts.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
 
 	wp_enqueue_script( 'jquery-form' );
 	wp_enqueue_script( 'html5-shim' );
 	wp_script_add_data( 'html5-shim', 'conditional', 'lt IE 9' );
-
-	//Load Libs
-	/*wp_enqueue_script( 'ale-slider' );
-	wp_enqueue_script( 'imagesloaded' );
-	wp_enqueue_script( 'masonry' );
-	wp_enqueue_script( 'ale-appear' );*/
 
 	wp_enqueue_script( 'ale-scripts' );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
         wp_enqueue_script( 'comment-reply' );
     }
+	if (is_page_template('template-homepage.php')) {
+	    wp_enqueue_script('slick');
+	    wp_enqueue_script('flexslider');
+	}
 
 }
 add_action( 'wp_enqueue_scripts', 'ale_enqueue_scripts');
