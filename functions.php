@@ -6,13 +6,13 @@ if ( get_stylesheet_directory() == get_template_directory() ) {
 	define('ALETHEME_PATH', get_template_directory() . '/aletheme');
 	define('ALETHEME_URL', get_template_directory_uri() . '/aletheme');
 }  else {
-    define('ALETHEME_PATH', get_theme_root() . '/olins/aletheme');
-    define('ALETHEME_URL', get_theme_root_uri() . '/olins/aletheme');
+    define('ALETHEME_PATH', get_theme_root() . '/gardener/aletheme');
+    define('ALETHEME_URL', get_theme_root_uri() . '/gardener/aletheme');
 }
 
 require_once ALETHEME_PATH . '/init.php';
 
-load_theme_textdomain( 'olins', get_template_directory() . '/lang' );
+load_theme_textdomain( 'gardener', get_template_directory() . '/lang' );
 $locale = get_locale();
 $locale_file = get_template_directory() . "/lang/$locale.php";
 if ( is_readable($locale_file) )

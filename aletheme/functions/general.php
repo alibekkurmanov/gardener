@@ -1308,7 +1308,7 @@ function ale_register_required_plugins() {
          */
         $plugins = array(
 
-            array(
+            /*array(
                 'name'      => 'WooCommerce',
                 'slug'      => 'woocommerce',
                 'required'  => false,
@@ -1329,6 +1329,32 @@ function ale_register_required_plugins() {
                 'force_activation'      => false,
                 'force_deactivation'    => false,
                 'external_url'          => '',
+            ),*/
+            array(
+                'name'                  => 'Gardener Core',
+                'slug'                  => 'cpt-gardener',
+                'source'                => get_template_directory() . '/plugins/cpt-gardener.zip',
+                'required'              => true,
+                'version'               => '',
+                'force_activation'      => false,
+                'force_deactivation'    => false,
+                'external_url'          => '',
+            ),
+
+            array(
+                'name'                  => 'API KEY for Google Maps',
+                'slug'                  => 'api-key-for-google-maps',
+                'required'              => true,
+
+            ),
+
+            array(
+                'name'                  => 'Gardener Shortcodes',
+                'slug'                  => 'ale-shortcodes',
+                'source'                => get_template_directory() . '/plugins/ale-shortcodes.zip',
+                'required'              => true,
+                'force_activation'      => false,
+                'force_deactivation'    => false,
             ),
 
 

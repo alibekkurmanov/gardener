@@ -7,11 +7,10 @@
         <div class="story single_post cf">
             <div class="cf">
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                    <article <?php post_class('cf'); ?> id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
-                        <?php get_template_part('partials/posthead' );?>
-                        <?php get_template_part('partials/postcontent' );?>
-                        <?php //get_template_part('partials/postfooter' );?>
-                    </article>
+                    <?php get_template_part('partials/posthead' );?>
+                    <?php get_template_part('partials/postcontent' );?>
+                    <?php get_template_part('partials/postfooter' );?>
+
                 <?php endwhile; else: ?>
                     <?php get_template_part('partials/notfound')?>
                 <?php endif; ?>

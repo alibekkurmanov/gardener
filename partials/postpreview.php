@@ -43,7 +43,7 @@ $ale_post_line_position = ale_get_option('blog_custom_postline_position');
             <?php
             //For posts without title show Read More button
             if(get_the_title() == false ){ ?>
-                <a class="ale_button" href="<?php echo esc_url(the_permalink()); ?>"><?php esc_html_e('Read More','olins'); ?></a>
+                <a class="ale_button" href="<?php echo esc_url(the_permalink()); ?>"><?php esc_html_e('Read More','gardener'); ?></a>
             <?php } ?>
         <?php } ?>
         <?php if($ale_post_line_position == 'aftercontent'){get_template_part('partials/blog/blog_info');} ?>

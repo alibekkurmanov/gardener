@@ -2,13 +2,15 @@
 
     <div class="post_title_section">
         <div class="post_info">
-            <?php if (get_the_category()) { ?>
-                <div class="post_category font_two"><?php the_category(' '); ?></div>
+            <?php if(get_the_category()){ ?>
+                <div class="post_category font_two">
+                    <?php the_category(' '); ?>
+                </div>
             <?php } ?>
             <?php if (comments_open() || get_comments_number()){ ?>
-                <div class="post_comments_count">
-                    <i class="fa fa-commenting-o" aria-hidden="true"></i> <?php comments_number(); ?>
-                </div>
+            <div class="post_comments_count">
+                <i class="fa fa-commenting-o" aria-hidden="true"></i> <?php comments_number(); ?>
+            </div>
             <?php } ?>
             <div class="post_date">
                 <i class="fa fa-clock-o" aria-hidden="true"></i> <?php the_date(); ?>
@@ -17,7 +19,9 @@
         <h3 class="post_title"><?php the_title(); ?></h3>
 
         <?php if(ale_get_meta('post_sub_title')){ ?>
-            <span class="sub_title"><?php echo esc_attr(ale_get_meta('post_sub_title')); ?></span>
+            <span class="sub_title">
+                <?php echo esc_attr(ale_get_meta('post_sub_title')); ?>
+            </span>
         <?php } ?>
     </div>
     <div class="post_content_section <?php if(is_page_template('template-pagesidebar.php')){ echo "page_with_sidebar"; } ?> cf">

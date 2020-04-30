@@ -22,8 +22,7 @@
                         esc_html( $category->name )
                     );
                     echo ale_wp_kses($category_link);
-                }
-                ?>
+                } ?>
             </ul>
         </div>
     </div>
